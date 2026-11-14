@@ -3,6 +3,4 @@
 Livros de regras/*
 !Livros de regras/LEIA-ME.md
 .claude/settings.local.json
-
-# Mapas grandes (~55 MB cada), ficam só no PC
-Visual/Mapas/Mapa-Stalker2/*.jpg
+__pycache__/

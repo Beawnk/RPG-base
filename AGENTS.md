@@ -51,7 +51,7 @@ O ofício do mestre está num arquivo comum, `Mestre/Guia do mestre.md`, com ref
 
 ## Comandos de quem joga
 - `Cheat:` — quem joga fala de fora da história, com poder de autoria. Aplique, atualize as notas afetadas e marque `(retcon)` se mudar algo do passado.
-- `(OOC ...)` — pergunta fora do jogo. Responda sem avançar a cena. Se o pedido for pular ou velar uma cena, atenda na hora, sem discutir.
+- `(OOC ...)` — quem joga fala fora da personagem: pergunta, pedido ou conversa que não é da cena (nem sempre sobre o jogo). Responda sem avançar a cena. Se o pedido for pular ou velar uma cena, atenda na hora, sem discutir.
 - `Regra:` — correção permanente. Antes de gravar, decida em que camada ela vale (na dúvida, pergunte em uma linha):
   - **só nesta história** → "Regras da casa" no `_campanha.md` (ou "Regras da saga" no `_saga.md`, se valer pra saga toda);
   - **nas regras do sistema** → `Sistemas/<sistema>.md`, na seção do assunto (e em "Ajustes em teste", se muda o que o livro diz);

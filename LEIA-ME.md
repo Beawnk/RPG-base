@@ -3,18 +3,32 @@
 Uma pasta de notas em que uma IA mestra campanhas de RPG pra uma pessoa só, com o sistema que você escolher. As notas são a memória do jogo: mundo, personagens, NPCs, o que aconteceu em cada sessão e o que o mestre está escondendo de você. O mestre rola os dados com um script, não protege a personagem e prepara situações em vez de roteiro.
 
 ## O que precisa
-- **Um assistente de IA que trabalhe dentro desta pasta**: que leia e grave arquivos aqui e rode comandos. A base foi preparada pro **Codex** (o assistente de código do ChatGPT), mas nada nela é exclusivo dele: serve pra qualquer assistente que leia o `AGENTS.md`.
-- **Python 3**, pros scripts: o rolador de dados e, se você quiser, plantas, documentos e prints de conversa.
+- **Um assistente de IA que trabalhe dentro desta pasta**: que leia e grave arquivos aqui e rode comandos. Nada na base é exclusivo de um assistente: serve qualquer um que leia o `AGENTS.md`. Os passos específicos dos dois mais usados, Claude Code e Codex, estão mais abaixo.
+- **Python 3**, pros scripts: o rolador de dados e, se você quiser, plantas, documentos e prints de conversa. Só usam a biblioteca padrão, nada pra instalar.
 - Opcional: **Obsidian**, pra ler as notas com links e imagens (abra esta pasta como vault; a pasta de templates já está configurada). **Git**, se quiser histórico ou jogar em mais de um aparelho.
 
 ### Como a IA encontra as instruções
-As regras do mestre estão em **`AGENTS.md`**, na raiz. O Codex lê esse arquivo sozinho, no começo de cada conversa, desde que seja aberto **nesta pasta** (a raiz do vault, não uma subpasta de fora).
+As regras do mestre estão em **`AGENTS.md`**, na raiz. Abra o assistente **nesta pasta** (a raiz do vault, não uma subpasta nem uma pasta acima dela).
 
-- Há também uma skill do Codex em `.agents/skills/mestre/`, que só aponta pro guia do mestre. Com ela, o Codex puxa o guia sozinho quando você diz que quer jogar. Uma cópia igual fica em `.claude/skills/mestre/`, pra quem usa o Claude Code.
+- Muitos assistentes leem o `AGENTS.md` sozinhos no começo de cada conversa. Se o seu procura um arquivo com outro nome, crie um arquivo com esse nome contendo "Leia `AGENTS.md` inteiro e siga-o." O `CLAUDE.md` da raiz é uma ponte dessas.
+- Há uma skill `mestre`, um atalho que manda ler o guia do mestre, em duas cópias iguais: `.claude/skills/mestre/` e `.agents/skills/mestre/`. Um assistente que entende skills puxa o guia sozinho quando você diz que quer jogar.
 - Se não tiver certeza de que ele leu, comece a primeira conversa com: **"Leia o AGENTS.md desta pasta e siga-o. Você é o mestre."**
-- Use o Codex **no computador** (linha de comando, extensão do editor ou aplicativo), com a pasta no seu disco. Pela nuvem, dentro do ChatGPT e ligado a um repositório, ele só enxerga o que está no repositório: os livros de `Livros de regras/` ficam de fora, e cada tarefa começa numa cópia nova. Dá pra jogar assim, mas o resumo do sistema precisa ser feito no computador.
-- O Codex pode pedir sua aprovação pra rodar comandos (o script de dados, o git). Aprove os do vault; ele não precisa de internet pra jogar.
-- Outro assistente que procure um arquivo com outro nome: crie um arquivo com esse nome contendo "Leia `AGENTS.md` inteiro e siga-o." O `CLAUDE.md` da raiz é uma ponte dessas e pode ser apagado.
+- O assistente vai pedir sua aprovação pra rodar comandos (o script de dados, o git). Aprove os do vault. Ele não precisa de internet pra jogar, só pro `git push`.
+- **Use no computador, com a pasta no seu disco.** Versões que rodam na nuvem a partir de um repositório só enxergam o que está nele: os livros de `Livros de regras/` ficam de fora, e cada tarefa começa numa cópia nova. Dá pra jogar assim, mas o resumo do sistema precisa ser feito no computador.
+
+### No Claude Code
+- **Abrir:** no terminal, entre na pasta do vault e rode `claude`. No aplicativo (aba Code) ou na extensão do editor, escolha esta pasta como projeto.
+- **Instruções:** ele lê o `CLAUDE.md` sozinho, e esse arquivo puxa o `AGENTS.md` inteiro (pela linha `@AGENTS.md`). Se você usa o Claude Code, não apague o `CLAUDE.md`.
+- **Skill:** a de `.claude/skills/mestre/` é encontrada sozinha. Também dá pra chamar com `/mestre`.
+- **Aprovações:** ele pergunta antes de rodar `python` e `git`. Pra não aprovar toda rolagem, escolha a opção de sempre permitir na primeira vez. Isso fica gravado em `.claude/settings.local.json`, que está fora do git.
+- **Pelo celular:** uma sessão nova do Claude Code na web ou no app do Claude roda na nuvem, a partir do repositório (vale o aviso acima). Pra jogar pelo celular com a pasta do seu computador, use o **Remote Control**: abra a sessão no PC com `claude --remote-control` (ou digite `/remote-control` numa sessão já aberta, inclusive no aplicativo e na extensão do VS Code) e continue em claude.ai/code ou no app do Claude. O PC precisa ficar ligado, e o recurso pede login com uma assinatura do Claude (não funciona com chave de API).
+
+### No Codex
+- **Abrir:** pela linha de comando (rode `codex` dentro da pasta do vault), pela extensão do editor ou pelo aplicativo, sempre com a pasta no seu disco.
+- **Instruções:** ele lê o `AGENTS.md` sozinho, nada a configurar. O `CLAUDE.md` não serve pra ele e pode ser apagado se você só usa o Codex.
+- **Skill:** a de `.agents/skills/mestre/`.
+- **Aprovações:** dependendo do modo de aprovação, ele pede confirmação pra rodar comandos. Aprove os do vault. Se o sandbox bloquear a rede, o mestre faz o commit, avisa que o push ficou pendente e você faz o push depois.
+- **Na nuvem:** pelo ChatGPT, ligado a um repositório, ele só vê o que está no repositório (vale o aviso acima).
 
 ### E se a minha IA é só um chat?
 Um chat sem acesso à pasta (site ou aplicativo de conversa) funciona pior, mas funciona:
@@ -34,14 +48,16 @@ Um chat sem acesso à pasta (site ou aplicativo de conversa) funciona pior, mas 
 Escreva o que a personagem faz, diz, pensa e sente. O mestre responde pelo resto do mundo e para quando é a sua vez. Quatro comandos:
 
 - `Cheat:` — você fala de fora da história, com poder de autoria. O mestre aplica, corrige as notas e marca como retcon se mudar o passado. É o único jeito de mudar o resultado de um dado.
-- `(OOC ...)` — pergunta ou pedido fora do jogo. O mestre responde sem avançar a cena. Serve pra tirar dúvida de regra, pedir um resumo, e pra pular ou velar uma cena (ele atende na hora, sem pedir motivo).
-- `Regra:` — correção permanente no jeito de jogar. Vai pras "Regras da casa" da campanha ou da saga.
+- `(OOC ...)` — você fala fora da personagem: uma pergunta, um pedido ou uma conversa que não é da cena (nem sempre é sobre o jogo). O mestre responde sem avançar a cena. Serve pra tirar dúvida de regra, pedir um resumo, e pra pular ou velar uma cena (ele atende na hora, sem pedir motivo).
+- `Regra:` — correção permanente no jeito de jogar. O mestre pergunta em que camada ela vale: só nesta campanha ou saga, nas regras do sistema, em você (`Jogador.md`) ou no jeito de mestrar.
 - `/fim` — encerra a sessão. O mestre move o mundo fora de cena, escreve a nota da sessão, atualiza a ficha, pede sua avaliação (opcional) e pergunta como o sistema se saiu. Em alguns assistentes a barra abre um menu de comandos; se `/fim` não passar, escreva "fim de sessão".
 
 ## O que é cada pasta
 - `AGENTS.md` — as regras do mestre. `_contexto.md` — o mapa completo do vault.
+- `CLAUDE.md` — ponte pro `AGENTS.md`, pro Claude Code.
 - `Jogador.md` — você.
-- `Mestre/` — o ofício do mestre: o guia (como conduzir cena, rolar, preparar), as referências, os módulos e os scripts. `.agents/skills/mestre/` é só o atalho do Codex pra ele.
+- `Mestre/` — o ofício do mestre: o guia (como conduzir cena, rolar, preparar), as referências, os módulos e os scripts.
+- `.claude/skills/mestre/` e `.agents/skills/mestre/` — a skill `mestre`, só um atalho pro guia, em duas cópias iguais.
 - `Campanhas/` — as sagas (um universo) e, dentro delas, as campanhas, com personagens, NPCs, lugares, sessões.
 - `Sistemas/` — um resumo por sistema de RPG. `_modelo.md` é o esqueleto.
 - `Livros de regras/` — seus livros, fora do git.
@@ -71,6 +87,6 @@ O mestre guarda a verdade escondida da história nas notas. Se você ler, estrag
 
 - `Segredos.md` e a pasta `Segredos/` de cada campanha;
 - `Segredos da saga.md` de cada saga;
-- os blocos recolhidos **"Só o mestre"** (callout `[!segredo]`) dentro das notas de NPC, lugar, item, facção, missão e da `Cena atual.md`. No Obsidian eles aparecem fechados: é só não clicar.
+- os blocos recolhidos **"Só o mestre"** (callout `[!segredo]`) dentro das notas de NPC, lugar, item, facção, missão e da `Cena atual.md`. No Obsidian eles aparecem fechados: é só não clicar. Em outro editor, no GitHub ou na conversa com a IA, eles aparecem abertos.
 
 O resto das notas guarda apenas o que a sua personagem sabe, e é feito pra você ler.
