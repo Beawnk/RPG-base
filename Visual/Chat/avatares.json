@@ -1,0 +1,3 @@
+{
+  "_leia": "Foto de perfil de cada contato nos prints do chat (chat_print.py). Chave = nome como aparece nas mensagens da nota de Chat; valor = caminho a partir da raiz do vault, ex.: \"Nome\": \"Visual/Chat/avatares/Nome.png\". Recorte quadrado pequeno (200x200) em Visual/Chat/avatares/. Quem não está aqui aparece com a inicial."
+}

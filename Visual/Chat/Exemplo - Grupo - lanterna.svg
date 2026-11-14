@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="1344" viewBox="0 0 460 1344" font-family="'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Segoe UI Emoji', 'Apple Color Emoji', sans-serif">
+<defs>
+  <clipPath id="tela"><rect x="42" y="42" width="376" height="1260" rx="36"/></clipPath>
+  <filter id="sombra" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity="0.45"/></filter>
+  <filter id="ruido" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4"/>
+    <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.035 0"/>
+  </filter>
+
+  <filter id="borrao" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="3" seed="11"/>
+    <feColorMatrix values="0.25 0.1 0 0 0.12  0.2 0.15 0 0 0.11  0.15 0.1 0.05 0 0.1  0 0 0 0 1"/>
+    <feGaussianBlur stdDeviation="3"/>
+  </filter>
+</defs>
+<rect x="30" y="30" width="400" height="1284" rx="48" fill="#060708" stroke="#34383d" stroke-width="2" filter="url(#sombra)"/>
+<rect x="33" y="33" width="394" height="1278" rx="45" fill="none" stroke="#15181b" stroke-width="3"/>
+<g clip-path="url(#tela)">
+<rect x="42" y="42" width="376" height="1260" fill="#0d1115"/>
+<rect x="42" y="42" width="376" height="1260" filter="url(#ruido)"/>
+<text x="72" y="71" fill="#e8eaed" font-size="15" font-weight="600">23:31</text>
+<rect x="178.0" y="52" width="104" height="27" rx="13.5" fill="#000"/>
+<rect x="363" y="60" width="23" height="12" rx="3.5" fill="none" stroke="#e8eaed" stroke-opacity=".6"/><rect x="365" y="62" width="13" height="8" rx="2" fill="#e8eaed"/><rect x="387" y="64" width="2" height="4" rx="1" fill="#e8eaed" fill-opacity=".6"/>
+<rect x="330" y="68.0" width="3.2" height="4.0" rx="1" fill="#e8eaed" fill-opacity="1"/>
+<rect x="335" y="65.4" width="3.2" height="6.6" rx="1" fill="#e8eaed" fill-opacity="1"/>
+<rect x="340" y="62.8" width="3.2" height="9.2" rx="1" fill="#e8eaed" fill-opacity="1"/>
+<rect x="345" y="60.2" width="3.2" height="11.8" rx="1" fill="#e8eaed" fill-opacity="0.35"/>
+<rect x="42" y="86" width="376" height="64" fill="#161b20"/>
+<line x1="42" y1="150" x2="418" y2="150" stroke="#222a31"/>
+<path d="M66,108 l-9,10 l9,10" fill="none" stroke="#7cc6fe" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="118" r="19" fill="#2c3e4a"/>
+<text x="100" y="124" text-anchor="middle" fill="#e8eaed" font-size="17" font-weight="700">P</text>
+<text x="130" y="115" fill="#e8eaed" font-size="16" font-weight="600">pessoal da escola</text>
+<text x="130" y="133" fill="#8b96a0" font-size="12.5">Nádia, Jonas, Tobias, você</text>
+<circle cx="396" cy="111" r="1.8" fill="#8b96a0"/>
+<circle cx="396" cy="118" r="1.8" fill="#8b96a0"/>
+<circle cx="396" cy="125" r="1.8" fill="#8b96a0"/>
+<rect x="207.6" y="164" width="44.8" height="24" rx="12" fill="#1c2329"/>
+<text x="230.0" y="180" text-anchor="middle" fill="#9aa5ae" font-size="12">hoje</text>
+<circle cx="68" cy="222" r="14" fill="#f2a65a"/><text x="68" y="227" text-anchor="middle" fill="#0d1115" font-size="13" font-weight="700">N</text>
+<path d="M92,208 H340.90000000000003 Q353.90000000000003,208 353.90000000000003,221 V429 Q353.90000000000003,442 340.90000000000003,442 H101 Q88,442 88,429 V212 Q88,208 92,208 Z" fill="#1d252c"/>
+<text x="99" y="228" fill="#f2a65a" font-size="13" font-weight="600">Nádia</text>
+<text x="99" y="249" fill="#e8eaed" font-size="15">Relatório da escola entregue.</text>
+<text x="99" y="269" fill="#e8eaed" font-size="15">Pediram pra ninguém comentar o</text>
+<text x="99" y="289" fill="#e8eaed" font-size="15">caso fora deste grupo, nem com a</text>
+<text x="99" y="309" fill="#e8eaed" font-size="15">família. Amanhã às 14h tem</text>
+<text x="99" y="329" fill="#e8eaed" font-size="15">conversa com a coordenação,</text>
+<text x="99" y="349" fill="#e8eaed" font-size="15">obrigatória pra quem entrou no</text>
+<text x="99" y="369" fill="#e8eaed" font-size="15">vestiário, ou seja, todo mundo. Ah, e</text>
+<text x="99" y="389" fill="#e8eaed" font-size="15">alguém pegou sem querer minha</text>
+<text x="99" y="409" fill="#e8eaed" font-size="15">lanterna? A de cabo azul. Preciso</text>
+<text x="99" y="429" fill="#e8eaed" font-size="15">dela até sexta.</text>
+<text x="344.90000000000003" y="434" text-anchor="end" fill="#8b96a0" font-size="11">22:47</text>
+<circle cx="68" cy="466" r="14" fill="#7cc6fe"/><text x="68" y="471" text-anchor="middle" fill="#0d1115" font-size="13" font-weight="700">J</text>
+<path d="M92,452 H228.36 Q241.36,452 241.36,465 V493 Q241.36,506 228.36,506 H101 Q88,506 88,493 V456 Q88,452 92,452 Z" fill="#1d252c"/>
+<text x="99" y="472" fill="#7cc6fe" font-size="13" font-weight="600">Jonas</text>
+<text x="99" y="493" fill="#e8eaed" font-size="15">eu não peguei</text>
+<text x="232.36" y="498" text-anchor="end" fill="#8b96a0" font-size="11">22:49</text>
+<path d="M101,509 H167.46 Q180.46,509 180.46,522 V532 Q180.46,545 167.46,545 H101 Q88,545 88,532 V522 Q88,509 101,509 Z" fill="#1d252c"/>
+<text x="99" y="532" fill="#e8eaed" font-size="15">acho</text>
+<text x="171.46" y="537" text-anchor="end" fill="#8b96a0" font-size="11">22:49</text>
+<path d="M101,548 H300.06 Q313.06,548 313.06,561 V571 Q313.06,584 300.06,584 H101 Q88,584 88,571 V561 Q88,548 101,548 Z" fill="#1d252c"/>
+<text x="99" y="571" fill="#e8eaed" font-size="15">pera vou olhar a mochila</text>
+<text x="304.06" y="576" text-anchor="end" fill="#8b96a0" font-size="11">22:50</text>
+<path d="M101,587 H319 Q332,587 332,600 V746 Q332,759 319,759 H101 Q88,759 88,746 V600 Q88,587 101,587 Z" fill="#1d252c"/>
+<clipPath id="f56764"><rect x="94" y="593" width="232" height="160" rx="9"/></clipPath>
+<g clip-path="url(#f56764)"><rect x="94" y="593" width="232" height="160" filter="url(#borrao)"/><rect x="94" y="593" width="232" height="160" fill="#000" fill-opacity=".35"/></g>
+<text x="210.0" y="627" text-anchor="middle" font-size="22">📷</text>
+<text x="210.0" y="651" text-anchor="middle" fill="#dfe4e8" fill-opacity=".85" font-size="12" font-style="italic">o fundo de uma mochila aberta: um</text>
+<text x="210.0" y="667" text-anchor="middle" fill="#dfe4e8" fill-opacity=".85" font-size="12" font-style="italic">pacote de bolacha pela metade, fita</text>
+<text x="210.0" y="683" text-anchor="middle" fill="#dfe4e8" fill-opacity=".85" font-size="12" font-style="italic">crepe, um carregador. Nenhuma</text>
+<text x="210.0" y="699" text-anchor="middle" fill="#dfe4e8" fill-opacity=".85" font-size="12" font-style="italic">lanterna.</text>
+<rect x="284.74" y="735" width="39.26" height="15" rx="7.5" fill="#000" fill-opacity=".45"/><text x="319" y="746" text-anchor="end" fill="#e8eaed" font-size="11">22:52</text>
+<path d="M101,762 H167.46 Q180.46,762 180.46,775 V785 Q180.46,798 167.46,798 H101 Q88,798 88,785 V775 Q88,762 101,762 Z" fill="#1d252c"/>
+<text x="99" y="785" fill="#e8eaed" font-size="15">nada</text>
+<text x="171.46" y="790" text-anchor="end" fill="#8b96a0" font-size="11">22:52</text>
+<path d="M101,801 H282.06 Q295.06,801 295.06,814 V824 Q295.06,837 282.06,837 H101 Q88,837 88,824 V814 Q88,801 101,801 Z" fill="#1d252c"/>
+<text x="99" y="824" fill="#e8eaed" font-size="15">reunião de novo mano</text>
+<text x="286.06" y="829" text-anchor="end" fill="#8b96a0" font-size="11">22:53</text>
+<path d="M101,840 H331.90000000000003 Q344.90000000000003,840 344.90000000000003,853 V883 Q344.90000000000003,896 331.90000000000003,896 H101 Q88,896 88,883 V853 Q88,840 101,840 Z" fill="#1d252c"/>
+<text x="99" y="863" fill="#e8eaed" font-size="15">*não é de novo, é a primeira. é que</text>
+<text x="99" y="883" fill="#e8eaed" font-size="15">parece que foi ontem</text>
+<text x="335.90000000000003" y="888" text-anchor="end" fill="#8b96a0" font-size="11">22:53</text>
+<circle cx="68" cy="920" r="14" fill="#e57fae"/><text x="68" y="925" text-anchor="middle" fill="#0d1115" font-size="13" font-weight="700">T</text>
+<text x="90" y="919" fill="#e57fae" font-size="13" font-weight="600">Tobias</text>
+<rect x="88" y="924" width="124" height="124" rx="18" fill="#161c21" stroke="#36414a" stroke-dasharray="5 4"/>
+<text x="150.0" y="986" text-anchor="middle" font-size="50">😎</text>
+<text x="150.0" y="1010" text-anchor="middle" fill="#8b96a0" font-size="10.5" font-style="italic">gato de óculos escuros</text>
+<text x="150.0" y="1023" text-anchor="middle" fill="#8b96a0" font-size="10.5" font-style="italic">fazendo joinha</text>
+<text x="208" y="1062" text-anchor="end" fill="#8b96a0" font-size="11">23:05</text>
+<circle cx="68" cy="1090" r="14" fill="#f2a65a"/><text x="68" y="1095" text-anchor="middle" fill="#0d1115" font-size="13" font-weight="700">N</text>
+<path d="M92,1076 H324.1 Q337.1,1076 337.1,1089 V1137 Q337.1,1150 324.1,1150 H101 Q88,1150 88,1137 V1080 Q88,1076 92,1076 Z" fill="#1d252c"/>
+<text x="99" y="1096" fill="#f2a65a" font-size="13" font-weight="600">Nádia</text>
+<text x="99" y="1117" fill="#e8eaed" font-size="15">Tobias, isso é sim pra lanterna ou</text>
+<text x="99" y="1137" fill="#e8eaed" font-size="15">sim pra reunião?</text>
+<text x="328.1" y="1142" text-anchor="end" fill="#8b96a0" font-size="11">23:06</text>
+<circle cx="68" cy="1174" r="14" fill="#e57fae"/><text x="68" y="1179" text-anchor="middle" fill="#0d1115" font-size="13" font-weight="700">T</text>
+<path d="M92,1160 H282.18 Q295.18,1160 295.18,1173 V1201 Q295.18,1214 282.18,1214 H101 Q88,1214 88,1201 V1164 Q88,1160 92,1160 Z" fill="#1d252c"/>
+<text x="99" y="1180" fill="#e57fae" font-size="13" font-weight="600">Tobias</text>
+<text x="99" y="1201" fill="#8b96a0" font-size="14" font-style="italic">🚫 Mensagem apagada</text>
+<text x="286.18" y="1206" text-anchor="end" fill="#8b96a0" font-size="11">23:31</text>
+<rect x="42" y="1230" width="376" height="72" fill="#12171b"/>
+<rect x="54" y="1242" width="302" height="42" rx="21" fill="#1f262d"/>
+<text x="74" y="1268" fill="#6f7b85" font-size="15">Mensagem</text>
+<circle cx="385" cy="1263" r="21" fill="#2c7a5f"/>
+<rect x="381" y="1252" width="8" height="14" rx="4" fill="#e8eaed"/><path d="M377,1262 a8,8 0 0 0 16,0 M385,1270 v5" fill="none" stroke="#e8eaed" stroke-width="2" stroke-linecap="round"/>
+<rect x="170.0" y="1294" width="120" height="4" rx="2" fill="#e8eaed" fill-opacity=".5"/>
+</g></svg>
