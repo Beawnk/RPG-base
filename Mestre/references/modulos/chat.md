@@ -11,7 +11,7 @@ A personagem tem um celular, e as pessoas falam com ela por ele: um grupo com qu
 - **Quando:** nos respiros. Entre missões, no descanso, à noite, no tempo vazio (ao perguntar se quem joga quer pular, o chat é uma das opções). Raramente durante a missão, como evento: alguém de fora manda algo, quem ficou pra trás pede ajuda, chega uma mensagem que não deveria existir. Uma ou duas conversas por pausa, não uma enxurrada.
 - **Como mostrar:** mensagens curtas, com nome e hora, no jeito de escrever de cada um (tirado da nota: emoji, caixa alta, áudio descrito, figurinha, erro de digitação). Pare quando for a vez de quem joga responder. Não responder é permitido: se a mensagem pedia resposta, isso também é escolha e pode pesar na relação (e na aprovação, se o módulo de companheiros está ligado).
 - **Formato:** em texto, num bloco `> 📱 **Grupo ou Nome** · grupo/privado`, uma linha por mensagem. Foto, figurinha, áudio, mensagem apagada e "digitando" usam os marcadores do template Chat.
-- **Quem sabe o quê:** no grupo, todos que estão nele; no privado, só os dois. NPCs também mentem e escondem no chat; a verdade fica no callout da nota deles.
+- **Quem sabe o quê:** no grupo, todos que estão nele; no privado, só os dois. NPCs também mentem e escondem no chat; a verdade fica no arquivo de segredo deles: leia-o antes de escrever por um NPC.
 - **Toda conversa de celular conta**, não só o grupo: mensagem com um parente, com um NPC de fora, com um contato que ela mal conhece, por qualquer aplicativo. Tudo vai pra `Chat/` na íntegra, com o que quem joga escreveu pela personagem do jeito que escreveu.
 
 ## Print do celular (SVG)

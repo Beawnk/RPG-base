@@ -25,9 +25,7 @@ regiao:
 ## Ligações
 - Leva a:
 
-> [!segredo]- Só o mestre
-> - O que está escondido aqui:
-> - O que acontece se ninguém vier:
+> Lado do mestre: `Segredos/Entidades/{{title}} (segredo).md` (pasta de segredos da saga).
 
 ## Mudanças
 - AAAA-MM-DD — o que mudou (link pra nota da sessão)

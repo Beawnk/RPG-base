@@ -36,7 +36,7 @@ Durante o jogo há quatro comandos: `Cheat:` (você muda a história com poder d
 
 **O passo a passo completo está no [`LEIA-ME.md`](LEIA-ME.md)**: como cada assistente encontra as instruções, os comandos, as pastas, os módulos opcionais (companheiros, chat, imagens, mural) e como testar e ajustar um sistema.
 
-> ⚠️ **Não abra os segredos.** `Segredos.md`, a pasta `Segredos/`, `Segredos da saga.md` e os blocos recolhidos "Só o mestre" das notas são do mestre. Ler estraga a sua própria surpresa.
+> ⚠️ **Não abra os segredos.** A pasta `Segredos/` de cada saga é do mestre. Ler estraga a sua própria surpresa. Todo o resto das notas é público: guarda só o que a sua personagem sabe.
 
 ## Treinar o mestre sem perder as atualizações
 
@@ -78,7 +78,6 @@ git pull upstream main
 ## Para onde o projeto vai
 
 - **Agora:** melhorar os textos de referência e treinar o mestre jogando, com mais de um sistema, e trazer pra cá o que valer pra qualquer campanha.
-- **Segredos só em arquivo de segredo:** hoje o lado oculto de NPCs, lugares, itens e facções fica num callout recolhido dentro da própria nota. No Obsidian ele aparece fechado, mas em qualquer outro editor, no GitHub ou na própria conversa com a IA ele fica à vista. A ideia é mover esses segredos pra `Segredos/` e deixar as notas públicas só com o que a personagem sabe.
 - **Depois:** evoluir pra um programa de jogar RPG no estilo de uma mesa virtual (como Foundry VTT ou Roll20), com a IA como opção de mestre. A ideia é de uso pessoal, pra jogar com amigos, não um produto.
 
 Hoje, nada disso existe como programa: as sessões acontecem no seu assistente de IA, e esta pasta é o que ele lê e grava.

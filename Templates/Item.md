@@ -17,8 +17,7 @@ onde:
 ## Aparência e história
 - 
 
-> [!segredo]- Só o mestre
-> - Propriedades ou história ainda não descobertas:
+> Lado do mestre: `Segredos/Entidades/{{title}} (segredo).md` (pasta de segredos da saga).
 
 ## Histórico
 - AAAA-MM-DD — como chegou até aqui (link pra nota da sessão)

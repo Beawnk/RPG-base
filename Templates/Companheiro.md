@@ -50,17 +50,7 @@ aprovacao: 0
 - Habilidades:
 - Equipamento:
 
-> [!segredo]- Só o mestre
-> - Quer de verdade:
-> - Esconde:
-> - Motivos profundos: (o que move ele por baixo; guia como os valores podem mudar)
-> - Aprova agora: (pode mudar com a história; registre a mudança no Histórico)
-> - Reprova agora:
-> - Valores mínimos: (ex.: 40 pra conversa íntima; o que a missão pessoal exige)
-> - Missão pessoal, a verdade: (e o que acontece se a personagem ignorar)
-> - Como reage se a personagem fizer algo que ele reprova:
-> - Avisos em -20 e -40, e o que faz em -50:
-> - Em alta ou acima, o que muda:
+> Lado do mestre: `Segredos/Entidades/{{title}} (segredo).md` (pasta de segredos da saga).
 
 ## Histórico
 - AAAA-MM-DD — o que aconteceu (link pra nota da sessão). Aprovação: neutra → média, porque… (ou: passa a não ligar pra X, porque…)

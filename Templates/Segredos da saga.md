@@ -4,6 +4,8 @@ saga:
 ---
 # Segredos da saga
 
+<!-- Fica em Campanhas/<saga>/Segredos/Segredos da saga.md. Nomes sem wikilink. -->
+
 > Só o mestre usa esta nota. O que é maior que uma campanha. Nada daqui aparece em narração, recap ou resumo até ser descoberto em jogo.
 > O que é de uma campanha só fica no `Segredos.md` dela.
 

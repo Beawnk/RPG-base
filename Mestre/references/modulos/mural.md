@@ -39,7 +39,7 @@ Fica na pasta da campanha e entra em "Notas à parte" do `_campanha.md` (gatilho
 
 ## No início da sessão
 
-É uma das três vezes em que o Miro se abre. Leia pouco: o quadro Teorias, as notas de quem joga nos outros quadros e o To-do (a parte "Meus" e o que foi marcado). Atualize a seção "O que quem joga suspeita e planeja" (em `Segredos/Agora.md`, se a campanha tem a pasta `Segredos/`; senão, no `Segredos.md`). O mural diz pra onde quem joga quer ir e o que está pensando; **não é fonte de fatos**.
+É uma das três vezes em que o Miro se abre. Leia pouco: o quadro Teorias, as notas de quem joga nos outros quadros e o To-do (a parte "Meus" e o que foi marcado). Atualize a seção "O que quem joga suspeita e planeja" (em `Agora.md`, se o `Segredos.md` foi dividido; senão, no próprio `Segredos.md`). O mural diz pra onde quem joga quer ir e o que está pensando; **não é fonte de fatos**.
 
 ## `/fim`: colocar a fila
 
@@ -51,7 +51,7 @@ Durante o jogo o Miro fica fechado e os fatos novos se acumulam na fila. Agora:
 4. Crie as notas novas **em preto** nos espaços livres e anote os ids delas em "Notas pretas atuais".
 5. Personagem importante novo (um companheiro, um NPC recorrente) ganha quadro próprio com tudo o que a personagem sabe dele, sem cobrir nota de quem joga.
 6. Esvazie a fila e atualize a coluna "Espaço livre".
-7. Ao reescrever o preparo da próxima sessão (`Segredos/Agora.md`, ou o `Segredos.md` se a campanha não tem a pasta), leve junto a seção "O que quem joga suspeita e planeja", com a leitura do mural em dia.
+7. Ao reescrever o preparo da próxima sessão (`Agora.md`, ou o `Segredos.md` se ele não foi dividido), leve junto a seção "O que quem joga suspeita e planeja", com a leitura do mural em dia.
 
 **To-do do mural:** reescreva "Horários" e "Ideias pra hoje" a partir de `Cena atual.md` (relógios e a lista "Esperando") e de `Linhas abertas.md`. Só o que a personagem sabe: nada dos segredos, nenhuma sugestão que aponte pra uma verdade escondida. Leia o quadro antes. **Limpe os riscados:** tudo o que está riscado sai, inclusive na parte "Meus". O que quem joga escreveu e não riscou fica como está, com as marcações que tiver (o que cada cor quer dizer fica em "Regras desta campanha"). Item seu que ficou velho (já feito em jogo ou que perdeu sentido) sai. Depois de limpar, suba os itens pra não sobrar linha vazia no meio.
 

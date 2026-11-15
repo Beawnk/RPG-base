@@ -29,17 +29,18 @@ As regras de como mestrar estão no `AGENTS.md`. Este arquivo é o mapa: onde ca
 └── Campanhas/
     └── <Nome da saga>/          universo compartilhado; toda campanha mora numa saga, mesmo que seja a única
         ├── _saga.md             o mundo, campanhas em ordem, linha do tempo, quem está onde, regras da saga
-        ├── Segredos da saga.md  o que atravessa campanhas e os ganchos de continuação (o mestre nunca revela)
         ├── Personagens/         personagens de quem joga, uma nota por personagem (passam de uma campanha pra outra)
         ├── NPCs/                uma nota por NPC, companheiros incluídos (persistem na saga)
         ├── Lugares/  Itens/  Facções/
         ├── Chat/                módulo de chat: toda conversa de celular da personagem, uma nota por conversa, na íntegra, e o índice `_chat.md`
+        ├── Segredos/            TUDO o que é secreto na saga, e só aqui. Fora desta pasta, toda nota é pública
+        │   ├── Segredos da saga.md   o que atravessa campanhas e os ganchos de continuação
+        │   ├── Entidades/            `<Nome> (segredo).md`: o lado oculto de cada NPC, lugar, item e facção; um por entidade, criado junto com a nota
+        │   └── <Nome da campanha>/   `Segredos.md` (ameaças, vilão, verdades, pistas planejadas; núcleo, com o índice), `Cena.md` (lado oculto da cena atual, DTs antes do dado) e, em campanha grande, `Agora.md` (lido sempre), `Companheiros/`, `Missões/`, `Arquivo.md`, `Material.md` (lidos quando o índice manda)
         └── <Nome da campanha>/
             ├── _campanha.md     premissa, tom, limites, quem rola, módulos ligados, regras da casa desta campanha
             ├── Cena atual.md    só a cena de agora: onde, quando, quem, ameaças
             ├── Linhas abertas.md missões, mistérios, promessas, ameaças em aberto
-            ├── Segredos.md      ameaças, vilão, verdades, pistas planejadas desta campanha (núcleo, com o índice)
-            ├── Segredos/        campanha grande: `Agora.md` (lido sempre), `Companheiros/`, `Missões/`, `Arquivo.md`, `Material.md` (lidos quando o índice manda)
             ├── Mural.md         módulo de mural: link, quadros, regras e a fila do que ainda não foi pro Miro
             ├── Regras visuais.md  regras de mapa, planta e documentos da campanha, lidas quando o gatilho acontece
             ├── Missões/         uma ficha de investigação por missão (template Missão)
@@ -62,6 +63,27 @@ Cada regra e cada lição aprendida em jogo mora numa camada só. É o que deixa
 
 No núcleo não entra nome de pessoa, de personagem ou de campanha, nem mecânica de um sistema. Onde gravar uma correção nova: `AGENTS.md`, comando `Regra:`.
 
+## Onde ficam os segredos
+Tudo o que quem joga não pode ver mora numa pasta só por saga, `Campanhas/<saga>/Segredos/`. Fora dela, toda nota é pública e pode ser aberta em qualquer lugar. Os caminhos abaixo são a partir dessa pasta.
+
+| O que | Arquivo | Quando o mestre lê |
+|---|---|---|
+| O que atravessa campanhas, ganchos de continuação | `Segredos da saga.md` | início de sessão |
+| O lado oculto de um NPC, lugar, item ou facção | `Entidades/<Nome> (segredo).md` | antes de a entidade entrar em cena, ser citada ou agir fora dela |
+| Ameaças, vilão, verdades, pistas planejadas da campanha | `<campanha>/Segredos.md` | início de sessão |
+| O lado oculto da cena atual: DTs gravadas antes do dado, inimigos, o que vem | `<campanha>/Cena.md` | início de sessão, antes de cada teste, depois de compactação |
+| O mundo depois da última sessão e o preparo da próxima (campanha grande) | `<campanha>/Agora.md` | início de sessão |
+| Plano de cada companheiro (campanha grande) | `<campanha>/Companheiros/Companheiro N.md` | antes de ele entrar em cena ou falar no chat |
+| Preparo de cada missão (campanha grande) | `<campanha>/Missões/Missão N.md` | quando a missão está pra começar ou em andamento |
+| Sessões já jogadas, com os testes; material de apoio | `<campanha>/Arquivo.md`, `<campanha>/Material.md` | só pra consultar |
+
+- Em campanha pequena só existem `Segredos.md` e `Cena.md`. Quando o `Segredos.md` passa de umas 200 linhas ele é dividido: vira o núcleo, com um índice do que ler e quando, e nascem os outros arquivos.
+- Nota pública nunca leva segredo. A de uma entidade só tem a linha fixa `> Lado do mestre: ...`, igual em todas, apontando pro arquivo de segredo dela.
+- Toda entidade tem arquivo de segredo, criado junto com a nota, mesmo sem nada a esconder: assim a lista de arquivos não conta quem tem segredo.
+- Nome próprio em nome de arquivo só em `Entidades/`, e só de quem já tem nota pública. Plano de companheiro e de missão levam número.
+- Dentro da pasta, nomes sem wikilink: o link faria o trecho aparecer nos backlinks da nota pública.
+- Segredo descoberto em jogo: o fato passa pra nota pública e fica marcado como revelado no arquivo de segredo.
+
 ## Convenções
 - Nome de arquivo = nome da coisa, com acentos e espaços (`Mestre Ondina.md`), pra wikilinks funcionarem natural.
 - Notas de sessão: `Sessões/AAAA-MM-DD - Título curto.md`.
@@ -72,10 +94,11 @@ No núcleo não entra nome de pessoa, de personagem ou de campanha, nem mecânic
   campanha: <nome>
   status: ativo | morto | desaparecido | destruido | resolvido
   ```
-  NPC e facção também têm `atitude: aliado | amigável | neutro | hostil` (é só um rótulo de como o NPC trata a personagem; não tem nada a ver com a aprovação dos companheiros); companheiro (módulo) usa `aprovacao` (-50 a 100) e `papel: principal | opcional`. Os arquivos fixos usam `tipo: saga | segredos-saga | campanha | cena | linhas | segredos | sessao | chat | chat-indice`, e a personagem de quem joga `tipo: personagem`. Toda nota tem `saga:`; `campanha:` é a campanha da nota (nas entidades, a campanha em que apareceu primeiro).
+  NPC e facção também têm `atitude: aliado | amigável | neutro | hostil` (é só um rótulo de como o NPC trata a personagem; não tem nada a ver com a aprovação dos companheiros); companheiro (módulo) usa `aprovacao` (-50 a 100) e `papel: principal | opcional`. Os arquivos fixos usam `tipo: saga | segredos-saga | campanha | cena | linhas | segredos | segredo | sessao | chat | chat-indice` (`segredo` é o arquivo de segredo de uma entidade), e a personagem de quem joga `tipo: personagem`. Toda nota tem `saga:`; `campanha:` é a campanha da nota (nas entidades, a campanha em que apareceu primeiro).
 - Cada nota começa com 1–2 linhas do essencial; detalhes depois.
-- O lado oculto de NPC, lugar, item e facção vai num callout recolhido `> [!segredo]- Só o mestre` dentro da própria nota. Fora dele, a nota guarda só o que a personagem sabe ou viu.
-- Os arquivos fixos (`_campanha`, `Cena atual`, `Linhas abertas`, `Segredos`) têm o mesmo nome em toda campanha. Pra linkar um deles, use o caminho: `[[Campanhas/<saga>/<campanha>/Cena atual|Cena atual]]`. A personagem de quem joga tem nota com o nome dela em `Personagens/`.
+- Nenhuma nota pública leva segredo, nem em bloco recolhido: fora do Obsidian o bloco aparece aberto. O lado oculto de NPC, lugar, item e facção vai em `Segredos/Entidades/<Nome> (segredo).md`, e a nota pública só aponta pra lá numa linha fixa (`> Lado do mestre: ...`), igual em todas. Na pasta de segredos, nomes sem wikilink.
+- No Obsidian, vale pôr a pasta de segredos de cada saga em Configurações → Arquivos e links → Arquivos excluídos, pra busca e o seletor rápido não mostrarem trechos dela.
+- Os arquivos fixos (`_campanha`, `Cena atual`, `Linhas abertas`) têm o mesmo nome em toda campanha. Pra linkar um deles, use o caminho: `[[Campanhas/<saga>/<campanha>/Cena atual|Cena atual]]`. Arquivo de segredo nunca se linka: quando precisar citar um, escreva o caminho entre crases. A personagem de quem joga tem nota com o nome dela em `Personagens/`.
 - No histórico de NPC, lugar, item e facção, linke a nota da sessão (`[[AAAA-MM-DD - Título]]`), nunca o template.
 - Anotação de origem: quando um fato ou uma regra vem de quem joga, marque `(de quem joga, AAAA-MM-DD)` e, se houver, o motivo. O motivo é o que importa guardar.
 
@@ -90,5 +113,5 @@ No núcleo não entra nome de pessoa, de personagem ou de campanha, nem mecânic
 - **Sistemas resumidos:** nenhum. `Sistemas/_modelo.md` é o esqueleto.
 - **Sessões jogadas:** nenhuma.
 - **Regras que mudaram:** nenhuma ainda. Registre aqui, por sessão, o que mudou nas regras da casa e no guia.
-- Templates: Saga (vira o `_saga.md`), Segredos da saga, Campanha (vira o `_campanha.md`), Personagem, Cena atual, Linhas abertas, Segredos, Missão (ficha de investigação), NPC, Lugar, Item, Facção, Sessão; dos módulos: Companheiro (NPC com ficha e turno), Chat (uma conversa) e Chat índice (vira o `Chat/_chat.md`). Placeholders `{{title}}`/`{{date:YYYY-MM-DD}}` e `<...>`: o mestre troca pelos valores ao criar notas. No Obsidian, a pasta de templates já está apontada em `.obsidian/templates.json`.
-- Guia do mestre em `Mestre/`, baseado em pesquisa sobre ofício de mestre (Alexandrian, Dungeon World, Blades in the Dark, Sly Flourish, estudos sobre LLM como mestre). Decisões de base: ameaças ficam em `Segredos.md`, sem oráculo, segredos de entidade em callout `[!segredo]`. A pesquisa completa está em `Referências/Ofício de mestre em RPG solo.md`.
+- Templates: Saga (vira o `_saga.md`), Segredos da saga, Campanha (vira o `_campanha.md`), Personagem, Cena atual, Linhas abertas, Segredos, Cena (segredos), Segredo de entidade, Missão (ficha de investigação), Segredo de missão, NPC, Lugar, Item, Facção, Sessão; dos módulos: Companheiro (NPC com ficha e turno), Chat (uma conversa) e Chat índice (vira o `Chat/_chat.md`). Placeholders `{{title}}`/`{{date:YYYY-MM-DD}}` e `<...>`: o mestre troca pelos valores ao criar notas. No Obsidian, a pasta de templates já está apontada em `.obsidian/templates.json`.
+- Guia do mestre em `Mestre/`, baseado em pesquisa sobre ofício de mestre (Alexandrian, Dungeon World, Blades in the Dark, Sly Flourish, estudos sobre LLM como mestre). Decisões de base: ameaças ficam em `Segredos.md`, sem oráculo, todo segredo na pasta `Segredos/` da saga (nenhum em nota pública). A pesquisa completa está em `Referências/Ofício de mestre em RPG solo.md`.

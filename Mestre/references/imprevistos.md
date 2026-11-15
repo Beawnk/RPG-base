@@ -24,7 +24,7 @@ Sem grupo, ninguém pega o gancho que foi largado. Por isso o custo de ignorar p
 
 1. Pergunte, fora de cena: quem ganha com essa morte, quem perde, quem quer vingança, quem ocupa o vazio?
 2. Se alguém vai ocupar o lugar, **promova um NPC que já tem nota** (um tenente, um sócio, a filha), em vez de criar um substituto do nada.
-3. "Algo maior por trás" só pode ser revelado se **já estava escrito em `Segredos.md` antes** da vitória. Se não estava, a vitória fecha aquele arco.
+3. "Algo maior por trás" só pode ser revelado se **já estava escrito na pasta de segredos antes** da vitória (no `Segredos.md` ou no arquivo de segredo de uma entidade). Se não estava, a vitória fecha aquele arco.
 4. Atualize as ameaças: a que tinha o NPC como motor pode se resolver, mudar de dono ou dar lugar a outra.
 5. Deixe a vitória ser sentida: alívio, reconhecimento, recompensa, e só depois as consequências.
 

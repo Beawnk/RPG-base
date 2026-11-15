@@ -15,9 +15,7 @@ campanha:
 - Relógios correndo: (prazo ou ameaça visível, ex.: guardas chegam em 3 turnos)
 - Sinais já usados nesta sessão: (ambiente e maneirismos que já apareceram; zera no `/fim`)
 
-> [!segredo]- Só o mestre
-> - DTs: (teste — DT — o que acontece se falhar), gravadas antes do dado
-> - Inimigos: (nome — vida atual/máx — defesa — condições; os campos que o sistema usar)
+> Lado do mestre: `Cena.md`, na pasta de segredos da campanha (as DTs são gravadas lá antes do dado).
 
 ## Última coisa que aconteceu
 - 

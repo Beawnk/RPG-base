@@ -58,7 +58,7 @@ Escreva o que a personagem faz, diz, pensa e sente. O mestre responde pelo resto
 - `Jogador.md` — você.
 - `Mestre/` — o ofício do mestre: o guia (como conduzir cena, rolar, preparar), as referências, os módulos e os scripts.
 - `.claude/skills/mestre/` e `.agents/skills/mestre/` — a skill `mestre`, só um atalho pro guia, em duas cópias iguais.
-- `Campanhas/` — as sagas (um universo) e, dentro delas, as campanhas, com personagens, NPCs, lugares, sessões.
+- `Campanhas/` — as sagas (um universo) e, dentro delas, as campanhas, com personagens, NPCs, lugares, sessões. Dentro de cada saga, a pasta `Segredos/` é só do mestre.
 - `Sistemas/` — um resumo por sistema de RPG. `_modelo.md` é o esqueleto.
 - `Livros de regras/` — seus livros, fora do git.
 - `Templates/` — o molde de cada tipo de nota.
@@ -83,10 +83,10 @@ O resumo em `Sistemas/` é uma leitura do livro, e jogar solo quase sempre pede 
 - Ajuste que não deu certo fica registrado como descartado, com o motivo, pra não ser tentado de novo sem querer.
 
 ## Aviso: não abra os segredos
-O mestre guarda a verdade escondida da história nas notas. Se você ler, estraga a própria surpresa. São só dele:
+O mestre guarda a verdade escondida da história numa pasta só. Se você ler, estraga a própria surpresa. É só dele:
 
-- `Segredos.md` e a pasta `Segredos/` de cada campanha;
-- `Segredos da saga.md` de cada saga;
-- os blocos recolhidos **"Só o mestre"** (callout `[!segredo]`) dentro das notas de NPC, lugar, item, facção, missão e da `Cena atual.md`. No Obsidian eles aparecem fechados: é só não clicar. Em outro editor, no GitHub ou na conversa com a IA, eles aparecem abertos.
+- a pasta `Segredos/` de cada saga (`Campanhas/<saga>/Segredos/`), inteira: os segredos da saga, os de cada campanha e o lado oculto de cada NPC, lugar, item e facção.
 
-O resto das notas guarda apenas o que a sua personagem sabe, e é feito pra você ler.
+O resto das notas guarda apenas o que a sua personagem sabe, e é feito pra você ler em qualquer lugar: no Obsidian, em outro editor, no GitHub ou na conversa com a IA. Nenhuma nota pública leva segredo; a de um NPC ou lugar só tem uma linha apontando pro arquivo de segredo dele.
+
+No Obsidian, vale pôr a pasta de segredos em Configurações → Arquivos e links → Arquivos excluídos, pra busca e o seletor rápido não mostrarem trechos dela.

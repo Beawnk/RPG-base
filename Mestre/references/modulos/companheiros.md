@@ -8,7 +8,7 @@ O livro de quase todo sistema supõe um grupo. Este módulo é um jeito de ter g
 
 ## Em cena
 
-- É um personagem, não um ajudante de mestre. Tem voz, objetivo, medo e opinião (nota dele). Pode discordar de quem joga, recusar, ter segredos e mudar com o que a personagem faz.
+- É um personagem, não um ajudante de mestre. Tem voz, objetivo, medo e opinião (nota dele). O que ele esconde, o que aprova agora e o que anda fazendo estão no arquivo de segredo dele (`Entidades/<Nome> (segredo).md`): leia os dois antes de ele falar. Pode discordar de quem joga, recusar, ter segredos e mudar com o que a personagem faz.
 - **A protagonista é a personagem de quem joga.** O companheiro não resolve o mistério, não tira a conclusão decisiva, não dá o plano. Pode comentar o que viu ou opinar quando perguntam, como qualquer NPC que só sabe o que presenciou.
 - Age no turno dele em combate e na investigação, com rolagens pelo script. Narre a ação dele curta e depois da ação da personagem.
 - Nunca decide pela personagem nem fala por ela. Nunca "salva no último segundo" fora do que as regras e os dados permitem.
@@ -27,7 +27,7 @@ Depois da personagem e do vilão, porque cada companheiro se liga aos dois. Pelo
 - Pra cada um: conceito, gatilho de entrada, missão pessoal, o que aprova e reprova, um segredo, aprovação inicial e ficha (no formato do sistema). Varie funções (combate, investigação, conhecimento, lábia) e personalidades que se choquem entre si e com a personagem.
 - **Nada genérico:** cada companheiro precisa de uma contradição (o que parece × o que é), uma voz própria (inclusive no chat, se o módulo de chat estiver ligado), um desejo ou gosto fora da trama e atrito com pelo menos outro companheiro. Teste: se dá pra resumir com um arquétipo só ("o grandão piadista", "a gótica sarcástica", "o veterano rabugento"), refaça antes de mostrar.
 - Pergunte se quem joga quer aprovar o conceito dos principais (só a premissa, sem segredo nem missão pessoal) ou prefere a surpresa. Segredo, missão pessoal e opcionais ficam com você.
-- O plano vai em `Segredos.md` ("Companheiros planejados"). Em campanha grande, cada plano vira um arquivo em `Segredos/Companheiros/`, com número no nome (`Companheiro 1.md`), nunca o nome dele, porque nome de arquivo aparece no Obsidian e daria spoiler, e o `Segredos.md` guarda só uma tabela (quem, papel, quando entra), pra não ler todos em toda sessão. A nota do companheiro (template Companheiro) nasce quando ele aparece em jogo, pra não dar spoiler no vault.
+- O plano vai em `Segredos.md` ("Companheiros planejados"). Em campanha grande, cada plano vira um arquivo em `Companheiros/`, na pasta de segredos da campanha, com número no nome (`Companheiro 1.md`), nunca o nome dele, porque nome de arquivo aparece no Obsidian e daria spoiler, e o `Segredos.md` guarda só uma tabela (quem, papel, quando entra), pra não ler todos em toda sessão. A nota do companheiro (template Companheiro) nasce quando ele aparece em jogo, pra não dar spoiler no vault. Nessa hora nasce também o arquivo de segredo dele (`Entidades/<Nome> (segredo).md`), que guarda o estado atual (o que aprova e reprova agora, os valores mínimos, o que faz fora de cena) e diz qual é o plano dele.
 
 ## Em campo
 
@@ -42,8 +42,8 @@ Como no Baldur's Gate 3: um número de **-50 a 100** no campo `aprovacao` da not
 - Só reage quem presenciou. Cada acontecimento conta uma vez (sem repetir a mesma gentileza pra acumular ponto). Máximo 100.
 - Na cena: a reação dele na ficção e uma marca curta, `(Nome aprova)`, `(Nome aprova muito)`, `(Nome desaprova)`. O número fica na nota, onde quem joga pode olhar quando quiser. Mudança de faixa vai no Histórico com o motivo.
 - Em -20 e em -40 ele avisa, na ficção, que está no limite. Em -50 ou menos vai embora de vez (ou pior, se o segredo dele permitir).
-- A faixa muda o tom do diálogo e a dificuldade pra convencê-lo: em alta ou acima, um degrau mais fácil na escala do sistema; em baixa ou abaixo, um degrau mais difícil. Momentos especiais (falas íntimas, romance, desfechos da missão pessoal) pedem um valor mínimo, escrito no callout secreto da nota.
-- **O que ele aprova e reprova pode mudar.** A lista do callout é o estado atual, não uma regra fixa. Ela muda quando faz sentido pros motivos profundos dele: a relação se aprofunda, a missão pessoal se resolve, algo o abala. Exemplo: um companheiro cínico que no começo despreza caridade sem retorno pode, depois de confiar na personagem e encarar o próprio passado, passar a não ligar ou até aprovar. A mudança precisa de um motivo dentro da ficção, aparecer em cena (uma conversa, uma reação diferente do normal) e ir pro Histórico. Nunca mude os valores dele pra que aprove o que quem joga está fazendo agora: isso é bajulação.
+- A faixa muda o tom do diálogo e a dificuldade pra convencê-lo: em alta ou acima, um degrau mais fácil na escala do sistema; em baixa ou abaixo, um degrau mais difícil. Momentos especiais (falas íntimas, romance, desfechos da missão pessoal) pedem um valor mínimo, escrito no arquivo de segredo dele.
+- **O que ele aprova e reprova pode mudar.** A lista do arquivo de segredo é o estado atual, não uma regra fixa. Ela muda quando faz sentido pros motivos profundos dele: a relação se aprofunda, a missão pessoal se resolve, algo o abala. Exemplo: um companheiro cínico que no começo despreza caridade sem retorno pode, depois de confiar na personagem e encarar o próprio passado, passar a não ligar ou até aprovar. A mudança precisa de um motivo dentro da ficção, aparecer em cena (uma conversa, uma reação diferente do normal) e ir pro Histórico. Nunca mude os valores dele pra que aprove o que quem joga está fazendo agora: isso é bajulação.
 
 **Revisar depois da sessão zero:** a escala do Baldur's Gate 3 foi feita pra um jogo de dezenas de horas. Chegar em "alta" (41) pede uns 8 momentos médios. Com o mundo e as ameaças criados, estime quantos momentos de aprovação cada principal vai ter. Se a campanha planejada parecer curta pra isso (por exemplo, menos de uns 10 a 15 sessões com o companheiro), proponha a quem joga uma escala menor: -10 a +15, mudanças de ±1/2/3, faixas hostil (-10 ou menos, vai embora) · desconfiado (-9 a -4) · neutro (-3 a +3) · aliado (+4 a +9) · leal (+10 a +15). A escala escolhida fica na linha do módulo, no `_campanha.md`.
 
@@ -54,5 +54,5 @@ Companheiros que sobrevivem podem voltar numa campanha seguinte, com a ficha e a
 ## Registro e `/fim`
 
 - Fim de cena: aprovação ganha ou perdida vai na nota do companheiro; mudança de faixa ou de valores, no Histórico.
-- `/fim`: confira a aprovação de cada um contra o que aconteceu na sessão; mova quem ficou na base (missão pessoal, opinião sobre o que soube) e registre no callout secreto da nota dele; atualize a ficha de quem se feriu ou gastou recurso.
-- Checagem de consistência: a tabela de companheiros do `Segredos.md` bate com os arquivos de `Segredos/Companheiros/` e com as notas de quem já apareceu?
+- `/fim`: confira a aprovação de cada um contra o que aconteceu na sessão; mova quem ficou na base (missão pessoal, opinião sobre o que soube) e registre no arquivo de segredo dele; atualize a ficha de quem se feriu ou gastou recurso.
+- Checagem de consistência: a tabela de companheiros do `Segredos.md` bate com os arquivos de `Companheiros/` e com as notas de quem já apareceu?

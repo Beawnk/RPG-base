@@ -31,11 +31,7 @@ atitude: neutro
 ## Relação com a personagem
 - 
 
-> [!segredo]- Só o mestre
-> - Quer de verdade:
-> - Esconde:
-> - Fazendo agora, fora de cena:
-> - Próximo passo se ninguém interferir:
+> Lado do mestre: `Segredos/Entidades/{{title}} (segredo).md` (pasta de segredos da saga).
 
 ## Histórico
 - AAAA-MM-DD — o que aconteceu (link pra nota da sessão)

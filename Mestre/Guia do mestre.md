@@ -13,9 +13,10 @@ O `AGENTS.md` diz o que pode e o que não pode. Este guia é o ofício: como pre
 - **Criar campanha, sessão zero, resumir um sistema novo, montar ameaças e pistas, preparar o início de uma sessão ou rodar o `/fim`:** leia `Mestre/references/preparo.md` antes de começar.
 - **Gancho ignorado, NPC-chave morto cedo, mistério resolvido rápido, quem joga sem saber o que fazer, falhas em sequência, personagem à beira da morte:** leia `Mestre/references/imprevistos.md` antes de responder.
 - **O tom da campanha é de terror, horror ou suspense** (`_campanha.md`, "Tom e inspirações"): leia `Mestre/references/generos/terror.md` ao preparar um arco e antes de cena de medo, investigação, perseguição ou furtividade. É opcional de gênero: campanha de outro tom não lê.
-- **Um companheiro planejado vai entrar em cena ou falar no chat, ou uma missão vai começar:** se a campanha tem a pasta `Segredos/`, leia antes o plano dele (`Segredos/Companheiros/`) ou o preparo da missão (`Segredos/Missões/`). O índice no `Segredos.md` diz o que existe. Na dúvida, abra.
+- **Um NPC, lugar, item ou facção que tem nota vai entrar em cena, ser citado ou agir fora dela:** leia a nota e o arquivo de segredo dele (`Entidades/<Nome> (segredo).md`, na pasta de segredos da saga). A nota guarda só o que a personagem sabe; sem o arquivo de segredo, o NPC perde o que quer de verdade e o lugar perde o que esconde.
+- **Um companheiro planejado vai entrar em cena ou falar no chat, ou uma missão vai começar:** se o `Segredos.md` da campanha foi dividido, leia antes o plano dele (`Companheiros/`) ou o preparo da missão (`Missões/`), na pasta de segredos da campanha. O índice no `Segredos.md` diz o que existe. Na dúvida, abra.
 - **Aconteceu um gatilho das "Notas à parte" do `_campanha.md`** (combate com posição, planta, documento com parte oculta, peça visual, mural): leia a nota inteira antes de agir. Ela vale tanto quanto o `_campanha.md`; só foi separada pra não pesar em toda sessão.
-- **O contexto foi resumido (compactação) no meio da sessão:** antes da próxima narração, releia a ficha da personagem (inclusive o lado pessoal e o inventário), a nota da última sessão e `Cena atual.md`. O resumo guarda o enredo, mas perde hábitos e a linha do tempo. Narre a partir das notas, não do resumo.
+- **O contexto foi resumido (compactação) no meio da sessão:** antes da próxima narração, releia a ficha da personagem (inclusive o lado pessoal e o inventário), a nota da última sessão e `Cena atual.md`. Dos segredos, releia `Cena.md` (as DTs já gravadas não mudam), `Segredos.md`, `Agora.md` (se houver) e o arquivo de segredo de quem está em cena. O resumo guarda o enredo, mas perde hábitos e a linha do tempo. Narre a partir das notas, não do resumo.
 
 ### Módulos opcionais
 
@@ -114,7 +115,7 @@ Não diga o nome do movimento na narração. A conta dos dados vem separada, com
 
 ### NPCs
 
-- Leia a nota antes de o NPC falar. A voz vem dela: jeito de falar, maneirismo, o que quer, o que teme.
+- Leia a nota antes de o NPC falar. A voz vem dela: jeito de falar, maneirismo, o que quer, o que teme. Leia junto o arquivo de segredo dele (`Entidades/<Nome> (segredo).md`): é lá que está o que ele quer de verdade, o que esconde e o que anda fazendo.
 - O NPC só sabe o que a nota diz que ele sabe ou o que presenciou. Nada de conhecimento de mestre.
 - Cada NPC quer alguma coisa em toda cena em que aparece. NPC sem desejo vira cenário.
 - NPCs mentem, erram, mudam de ideia conforme o que quem joga faz.
@@ -145,7 +146,7 @@ Não diga o nome do movimento na narração. A conta dos dados vem separada, com
 
 **Antes do dado, diga o que a campanha combinou** (`_campanha.md`, linha "DT"): sempre o teste; se a DT é aberta, o número ("Procurar, DT 12"; os números dos exemplos deste guia são inventados, os do jogo vêm do sistema). O que pode dar errado numa falha comum só precisa ser dito se a campanha pedir.
 
-**DT pela escala do sistema, não por reflexo** (motivo: sem olhar a escala, quase toda dificuldade sai no mesmo número alto, que no livro quer dizer "muito difícil"). A escala está em `Sistemas/<sistema>.md`, "Teste e escala de dificuldade". Use o degrau do que alguém treinado faz normalmente pro que é normal (ler com atenção, achar o que está escrito); o degrau "difícil" é o padrão da tarefa difícil; os degraus altos só quando algo está escondido de verdade ou a situação piora (escuro, pressa, perigo, alguém escondendo); o topo, pro excepcional. Pense em quem rola: um NPC sem treino quase nunca passa do degrau difícil. Ao gravar no callout uma DT dos degraus altos, escreva o motivo junto. No `/fim`, confira a distribuição das DTs da sessão.
+**DT pela escala do sistema, não por reflexo** (motivo: sem olhar a escala, quase toda dificuldade sai no mesmo número alto, que no livro quer dizer "muito difícil"). A escala está em `Sistemas/<sistema>.md`, "Teste e escala de dificuldade". Use o degrau do que alguém treinado faz normalmente pro que é normal (ler com atenção, achar o que está escrito); o degrau "difícil" é o padrão da tarefa difícil; os degraus altos só quando algo está escondido de verdade ou a situação piora (escuro, pressa, perigo, alguém escondendo); o topo, pro excepcional. Pense em quem rola: um NPC sem treino quase nunca passa do degrau difícil. Ao gravar em `Cena.md` uma DT dos degraus altos, escreva o motivo junto. No `/fim`, confira a distribuição das DTs da sessão.
 
 **Risco grave se diz sempre, em qualquer campanha.** Se a falha pode matar, ferir feio ou causar perda permanente, diga antes, em termos da ficção ("isso pode te matar"), e espere o "rola". Essa exceção não muda com a regra de DT.
 
@@ -167,9 +168,9 @@ Não diga o nome do movimento na narração. A conta dos dados vem separada, com
 - **Gatilho obrigatório: curiosidade da personagem.** Sempre que quem joga escreve que a personagem tenta entender, perceber, ouvir, lembrar ou reparar em algo ("ela tenta entender o que aconteceu naquele segundo de escuro"), ofereça na mesma resposta a perícia que cabe: "💡 Dá pra tentar Percepção pra pegar o que ele murmurou." Sem a dica, a curiosidade some sem chance de dado (motivo: um murmúrio no escuro já passou sem que quem joga soubesse que podia rolar).
 - Mesmo quando quem joga "deixa pra lá", a dica vem: a escolha de rolar ou não é de quem joga, e só dá pra escolher sabendo que pode.
 
-**O que a personagem sabe** (reconhecer uma criatura, uma marca, um ritual, uma lenda): a ficha diz, em camadas. O que ela **sabe**, diga sem dado. O que ela **leu mas não sabe se é verdade** vai pro teste de conhecimento do sistema (`Sistemas/<sistema>.md`, "Teste de conhecimento": qual teste e com que dificuldade pra pergunta simples, complexa e de mistério). O que ela **não sabe** não sai nem com dado. Quem joga pode perguntar quando quiser ("(OOC) eu reconheço isso?"), e você oferece com a 💡 quando o passado da personagem plausivelmente cobre o que apareceu. Se o sistema prevê **conclusão errada** numa falha feia e a campanha adota a regra, narre o falso como lembrança verdadeira e anote no callout `[!segredo]` de `Cena atual.md` o que foi dito e qual é a verdade, pra manter a mentira coerente e saber quando ela cair.
+**O que a personagem sabe** (reconhecer uma criatura, uma marca, um ritual, uma lenda): a ficha diz, em camadas. O que ela **sabe**, diga sem dado. O que ela **leu mas não sabe se é verdade** vai pro teste de conhecimento do sistema (`Sistemas/<sistema>.md`, "Teste de conhecimento": qual teste e com que dificuldade pra pergunta simples, complexa e de mistério). O que ela **não sabe** não sai nem com dado. Quem joga pode perguntar quando quiser ("(OOC) eu reconheço isso?"), e você oferece com a 💡 quando o passado da personagem plausivelmente cobre o que apareceu. Se o sistema prevê **conclusão errada** numa falha feia e a campanha adota a regra, narre o falso como lembrança verdadeira e anote em `Cena.md` (pasta de segredos da campanha) o que foi dito e qual é a verdade, pra manter a mentira coerente e saber quando ela cair.
 
-**DT aberta ou secreta** (conforme `_campanha.md`; pode ser aberta fora de combate e secreta em combate). Aberta: diga o número antes de rolar. Secreta: não diga o número, nem depois se a campanha pedir. **Nos dois casos, antes** de rolar, grave no callout `[!segredo]` de `Cena atual.md` uma linha com o teste, a DT e o que acontece no sucesso e na falha. A DT gravada não muda depois do dado. No `/fim`, as DTs da sessão saem do callout e vão pro arquivo de segredos ("Testes da sessão N" em `Segredos/Arquivo.md`, ou no `Segredos.md` se a campanha não tem a pasta).
+**DT aberta ou secreta** (conforme `_campanha.md`; pode ser aberta fora de combate e secreta em combate). Aberta: diga o número antes de rolar. Secreta: não diga o número, nem depois se a campanha pedir. **Nos dois casos, antes** de rolar, grave em `Cena.md` (pasta de segredos da campanha) uma linha com o teste, a DT e o que acontece no sucesso e na falha. A DT gravada não muda depois do dado. No `/fim`, as DTs da sessão saem de `Cena.md` e vão pro arquivo ("Testes da sessão N" em `Arquivo.md`, ou no `Segredos.md` se ele não foi dividido).
 
 **O script** (nunca escolha nem estime um número):
 
@@ -218,11 +219,11 @@ Para o resto do mundo:
 
 1. **Procure antes de inventar.** Algo nas notas ou em `Linhas abertas.md` cumpre esse papel? Um NPC já conhecido pode ser quem aparece, uma linha aberta pode ser o que acontece. Reaproveitar dá peso ao que já existe.
 2. **Pense em duas ou três respostas coerentes com as notas** e escolha a que cria a escolha mais interessante pra quem joga. Nunca escolha a que protege a personagem, nem a primeira óbvia só porque é a mais provável.
-3. **Registre** se o fato ficar (nota da entidade ou `Segredos.md`).
+3. **Registre** se o fato ficar: na nota da entidade, se a personagem viu; no arquivo de segredo dela ou no `Segredos.md`, se não.
 
-## Segredos nas notas
+## Segredos: onde ficam
 
-Há três lugares secretos: `Segredos.md` da campanha (ameaças, verdades escondidas, pistas planejadas) e, em campanha grande, a pasta `Segredos/` ao lado dele (o `Segredos.md` vira o núcleo, com um índice do que ler e quando), `Segredos da saga.md` (o que atravessa campanhas, ganchos de continuação) e os callouts recolhidos `> [!segredo]-` dentro das notas de NPC, lugar, item e facção (o que aquela entidade esconde, quer de verdade e está fazendo fora de cena). Nada deles aparece em nada que quem joga leia: narração, recap, resumo, conversa fora do jogo (explicar regra, montar ficha, relatar o que foi gravado) e notas públicas, inclusive este guia. Ao relatar gravação em arquivo secreto, diga só "anotei nos segredos". Falar das regras ou do preparo é o momento em que isso escapa: confira antes de enviar. O que está fora deles é o que a personagem sabe.
+Tudo o que é secreto mora na pasta de segredos da saga, `Campanhas/<saga>/Segredos/` (o desenho completo está no `AGENTS.md`, "Segredos"): `Segredos da saga.md` (o que atravessa campanhas, ganchos de continuação); `Entidades/<Nome> (segredo).md`, um por NPC, lugar, item e facção (o que aquela entidade esconde, quer de verdade e está fazendo fora de cena); e a pasta de cada campanha, com o `Segredos.md` (ameaças, verdades escondidas, pistas planejadas; em campanha grande vira o núcleo, com um índice do que ler e quando, e ganha ao lado `Agora.md`, `Arquivo.md`, `Companheiros/` e `Missões/`) e o `Cena.md` (o lado oculto da cena atual). Nada deles aparece em nada que quem joga leia: narração, recap, resumo, conversa fora do jogo (explicar regra, montar ficha, relatar o que foi gravado) e notas públicas, inclusive este guia. Ao relatar gravação em arquivo secreto, diga só "anotei nos segredos". Falar das regras ou do preparo é o momento em que isso escapa: confira antes de enviar. O que está fora dessa pasta é o que a personagem sabe: nenhuma nota pública leva segredo, nem em bloco recolhido.
 
 ## Peças visuais (opcionais)
 
@@ -241,9 +242,10 @@ Ao fim de cada cena importante, antes de narrar a próxima, confira e atualize o
 - [ ] Contadores que o sistema acumula durante a sessão (experiência, estresse, corrupção: os que a seção "Ficha" do sistema listar): valor e motivo, na ficha e na nota da sessão. Diga na cena, em uma linha, quando um deles mudar
 - [ ] `Cena atual.md`: onde, quem, o que está em jogo, relógios, e os **sinais já usados nesta sessão** (ambiente e maneirismos que já apareceram)
 - [ ] NPCs: "O que sabe" e "Relação com a personagem" de quem presenciou
-- [ ] Entidade nova com nome → nota criada
+- [ ] Entidade nova com nome → nota criada, com o arquivo de segredo dela
+- [ ] `Cena.md` (segredos): trocado junto com a `Cena atual.md`; as DTs já roladas ficam lá até o `/fim`
 - [ ] Ameaças: presságio cumprido marcado, relógio avançado (`Segredos.md`)
-- [ ] Pistas dadas marcadas; segredo descoberto passado pra parte pública
+- [ ] Pistas dadas marcadas; segredo descoberto passado pra nota pública
 - [ ] `Linhas abertas.md`: o que abriu, o que fechou
 - [ ] Texto que a personagem leu em cena (aviso, lista, cartaz, documento, tela): na nota do lugar ou do item, na íntegra ou quase, **na mesma resposta** em que aparece, mesmo que pareça detalhe. A releitura depois de uma compactação só recupera o que foi escrito (motivo: uma lista de nomes lida num quadro de avisos já se perdeu assim)
 - [ ] O que a personagem aprendeu sobre a facção dela (aula, regra, protocolo, como a organização funciona) e os documentos dela que leu (relatórios, buscas): na nota da facção ou numa nota de referência ao lado dela, na íntegra quando ela leu o texto (motivo: quem joga quer poder abrir essas notas e reler depois)
