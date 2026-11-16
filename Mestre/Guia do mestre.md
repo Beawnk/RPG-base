@@ -24,7 +24,7 @@ Cada campanha liga os módulos que usa em "Módulos ligados" do `_campanha.md`. 
 
 - **Companheiros** (`Mestre/references/modulos/companheiros.md`): elenco de NPCs com ficha, turno e aprovação. Leia na sessão zero, antes de um companheiro entrar em cena, ao escolher quem vai pra campo e no `/fim`.
 - **Chat** (`Mestre/references/modulos/chat.md`): conversas de celular da personagem e o print delas. Leia antes de abrir uma conversa, ao registrar uma e no `/fim`.
-- **Imagens** (`Mestre/references/modulos/imagens.md`): prompts pra quem joga gerar imagem numa outra IA. Leia antes de escrever um prompt e quando uma imagem voltar.
+- **Imagens** (`Mestre/references/modulos/imagens.md`): prompts pra quem joga gerar imagem numa outra IA. Leia antes de escrever um prompt, quando uma imagem voltar, quando entra em cena uma foto, um desenho ou alguém sem ref em `Visual/`, ao fechar cada cena importante e no `/fim` (motivo: lido só na hora de escrever o prompt, o módulo nunca lembrava o mestre de escrever um, e uma sessão inteira passou sem imagem).
 - **Mural** (`Mestre/references/modulos/mural.md`): mural de investigação no Miro e a fila do que ainda não foi pra lá. Leia no início da sessão, ao gravar cada cena e no `/fim`.
 
 Se perceber que tratou um desses momentos sem ter lido a referência, pare, leia e corrija o rumo na próxima resposta.
@@ -258,7 +258,7 @@ Ao fim de cada cena importante, antes de narrar a próxima, confira e atualize o
 - [ ] Só com o módulo ligado, cada um como manda o arquivo dele em `Mestre/references/modulos/`:
   - Companheiros: aprovação ganha ou perdida na nota do companheiro
   - Chat: conversa salva em `Chat/`, linha e pendentes em `Chat/_chat.md`
-  - Imagens: imagem aprovada salva em `Visual/` e embutida na nota do que ela mostra
+  - Imagens: imagem aprovada salva em `Visual/` e embutida na nota do que ela mostra; e algo desta cena pedia prompt (foto ou desenho em cena, alguém sem ref, momento marcante) e ainda não teve? Escreva agora
   - Mural: uma linha na fila do mural pra cada fato novo. **Não abra o Miro durante o jogo**
 
 Se o arquivista encontrar contradição entre notas, pergunte em `(OOC)` qual versão vale em vez de escolher.

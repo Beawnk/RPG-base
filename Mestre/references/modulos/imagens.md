@@ -2,18 +2,25 @@
 
 Opcional. Só vale se o `_campanha.md` tem "Imagens: sim" em "Módulos ligados". Com o módulo desligado: não escreva prompt, não proponha imagem, não pause a cena pra isso.
 
-Leia: antes de escrever um prompt e quando uma imagem voltar.
+Leia: antes de escrever um prompt, quando uma imagem voltar, quando entra em cena uma foto, um desenho ou alguém sem ref em `Visual/`, ao fechar cada cena importante e no `/fim`.
 
 Você não gera imagem. Você escreve o prompt, quem joga gera numa outra IA e traz de volta. O estilo, o que evitar e qual IA estão em `Jogador.md`, seção "Imagens": leia antes do primeiro prompt e, se estiver em branco, pergunte e preencha.
 
 ## Regras
 
-- **Quando:** monstro novo, momento importante ou marcante, personagem novo que vá aparecer bastante, ou qualquer coisa que valha mostrar. Pausar a cena pra isso é permitido, a menos que `Jogador.md` peça outro ritmo. Companheiro ou NPC fixo entra aqui também, na hora em que aparece.
+- **Quando:** monstro novo, foto ou desenho que aparece em cena, momento importante ou marcante, personagem novo que vá aparecer bastante, ou qualquer coisa que valha mostrar. Quantas por sessão e o que quem joga não quer perder: `Jogador.md`, seção "Imagens". Pausar a cena pra isso é permitido, a menos que `Jogador.md` peça outro ritmo. Companheiro ou NPC fixo entra aqui também, na hora em que aparece.
 - **Onde fica o prompt:** numa nota `Visual/Prompts/<AAAA-MM-DD> - <assunto>.md`, nunca colado na conversa (polui a sessão, que pode ser relida depois). Na cena, uma linha `(OOC)` dizendo que o prompt está pronto; se quem joga usa o celular, mande o arquivo na mesma resposta.
 - **Como escrever:** na língua que a outra IA entende melhor (em geral, inglês). Comece pelo estilo de `Jogador.md` e descreva tudo explicitamente: pele, olhos (qual lado, quando importa), tipo e comprimento de cabelo, marcas, roupa, pose, luz, cenário. Nunca use nacionalidade ou etnia como atalho ("Brazilian", "Asian"): descreva os traços. Se a outra IA não tem campo negativo, o que evitar vai no fim, em "Avoid: ...", sempre com a lista "O que evitar nas imagens" de `Jogador.md`. Liste no topo da nota quais refs de `Visual/` devem ser anexadas.
 - **Segredos:** o prompt mostra só o que a personagem vê naquele momento. Nada dos arquivos secretos (nome verdadeiro, natureza real, o que está escondido na cena). A nota de prompt é pública.
-- **Volta:** quem joga manda a imagem; confira contra as notas (rosto, olhos, marcas, roupa, objetos) e diga o que bateu e o que não. Ajuste vai como prompt de edição ("Edit this image. Keep everything exactly the same... Only change: ..."), na mesma nota, como "Ajuste 1", "Ajuste 2". Aprovada: salve em `Visual/` (ou na pasta da cena), embuta na nota do que ela mostra e, com o módulo de mural ligado, ponha uma linha na fila pra imagem ir pro quadro certo no `/fim`. A decisão de aprovar é de quem joga.
+- **Volta:** quem joga manda a imagem; confira contra as notas (rosto, olhos, marcas, roupa, objetos) e diga o que bateu e o que não. **Antes de opinar, abra a imagem e a ref da personagem (a que as notas mandam anexar) e compare lado a lado:** rosto, olhos, marcas e também a proporção do corpo (ombros, tronco, braços, pernas, tamanho da cabeça). Só afirme o que você viu nas duas; o que não der pra ver com certeza, diga que não deu (motivo: uma conferência feita de olho no prompt, e não na imagem, apontou como errado o que estava certo e deixou passar a proporção, que era o problema). Ajuste vai como prompt de edição ("Edit this image. Keep everything exactly the same... Only change: ..."), na mesma nota, como "Ajuste 1", "Ajuste 2". Aprovada: salve em `Visual/` (ou na pasta da cena), embuta na nota do que ela mostra e, com o módulo de mural ligado, ponha uma linha na fila pra imagem ir pro quadro certo no `/fim`. A decisão de aprovar é de quem joga.
 - Detalhe que faltar na nota de um NPC ou do mundo: defina e grave. Da vida da personagem de quem joga: pergunte antes (regra "Sem oráculo" do guia).
+
+## Na cena e no `/fim`
+
+O prompt não depende de lembrar: há dois momentos fixos de conferir.
+
+- **Ao fechar cada cena importante:** algo nela pedia imagem (foto ou desenho em cena, alguém sem ref, momento marcante) e ainda não teve prompt? Se sim, escreva agora e mande.
+- **`/fim`:** conte as imagens da sessão contra o mínimo de `Jogador.md`. Se faltar, escreva o prompt do momento mais marcante e mande. Na nota da sessão, uma linha com as imagens que saíram (ou "nenhuma, e por quê").
 
 ## Molde de prompt
 
