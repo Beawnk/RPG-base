@@ -82,7 +82,12 @@ O erro mais escorregadio está nas transições de rotina, que parecem inofensiv
 > Errado: (quem joga: "ela abre a mochila e pega umas coisas pra ir se lavar no rio") "As roupas que ela enfiou às pressas estão emboladas. Na trilha, cheiro de pinho. A água do rio está gelada..."
 > Certo: "A fivela da mochila range. Lá fora, o sino do acampamento bate a primeira hora." e parar.
 
-Na releitura, confira também: a personagem mudou de lugar ou terminou uma ação que quem joga só começou?
+- **Anunciar não é ir** (motivo: quem joga costuma querer ver a resposta dos outros, reagir e fazer outras coisas antes de sair; levar a personagem junto com o anúncio tira essa escolha, e a crítica de controle da personagem volta em outra forma). Quando a personagem diz pra onde vai ("vou pro pátio, quem vem?", "vou até a porta"), é fala ou intenção, não deslocamento. Narre a reação de quem ouviu e pare. Só mude a personagem de lugar quando quem joga narrar o movimento ("ela desce pro pátio") ou confirmar.
+
+> Errado: (quem joga: "Vou pro pátio, quem vem comigo?") "Os três descem juntos. O pátio está vazio, com cheiro de chuva..."
+> Certo: "— Ué, todo mundo vai, é aula. — Ele já está de pé, levando o prato pra pia." e parar.
+
+Na releitura, confira também: a personagem mudou de lugar ou terminou uma ação que quem joga só começou ou só anunciou?
 
 **Fechamento sem gesto da personagem** (motivo: é onde o controle da personagem mais escapa, e a crítica costuma se repetir de uma sessão pra outra). O erro mais comum está no ponto final: pra fechar uma cena ou pular o tempo, o mestre põe um gesto da personagem que quem joga não deu.
 - A narração **nunca termina com um gesto da personagem**. Termina no mundo: o que muda, o que soa, quem fala.
