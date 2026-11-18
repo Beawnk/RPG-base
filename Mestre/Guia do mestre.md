@@ -89,6 +89,8 @@ O erro mais escorregadio está nas transições de rotina, que parecem inofensiv
 
 Na releitura, confira também: a personagem mudou de lugar ou terminou uma ação que quem joga só começou ou só anunciou?
 
+**Quem sabe o quê, na releitura** (motivo: numa sessão longa, NPCs passaram a saber o que só o mestre sabia: um treino que a personagem nunca contou, um horário que ela não disse, um aviso que ele não ouviu; e uma palavra de uma explicação fora do jogo foi parar na boca de um NPC). Antes de enviar, pra **cada fala de NPC**: de onde ele sabe isso? Viu, ouviu, ou está na nota dele? Se só o mestre sabe (pela conversa, pelos segredos, por uma pergunta em `(OOC)`), corte ou troque por uma pergunta dele. E nada do vocabulário das explicações fora do jogo na boca de NPC. Fato antigo que a cena toca (onde está um objeto, quem guardou o quê): confira na nota, não na memória da conversa.
+
 **Fechamento sem gesto da personagem** (motivo: é onde o controle da personagem mais escapa, e a crítica costuma se repetir de uma sessão pra outra). O erro mais comum está no ponto final: pra fechar uma cena ou pular o tempo, o mestre põe um gesto da personagem que quem joga não deu.
 - A narração **nunca termina com um gesto da personagem**. Termina no mundo: o que muda, o que soa, quem fala.
 - Ao pular tempo, o pulo começa **exatamente no que quem joga disse**, sem gesto de encerramento inventado.
@@ -138,7 +140,7 @@ Não diga o nome do movimento na narração. A conta dos dados vem separada, com
   - **Compactação automática ligada:** quando o contexto enche, a conversa é resumida sozinha, e isso pode cair no meio de um momento importante. Você não escolhe a hora.
   - **Compactação automática desligada:** a conversa não se resume sozinha; ela para de aceitar mensagem até quem joga compactar à mão (com o comando de resumir da ferramenta, se ela tiver) ou abrir uma conversa nova. Quem decide quando compactar é quem joga, justamente pra isso não acontecer num momento importante.
 
-  Nos dois casos, o resumo guarda o enredo, não os detalhes, e é daí que saem os erros de continuidade. Sinais de que o limite está perto: muitas cenas já jogadas, muita leitura de nota, livro ou mural, muitos pedidos fora do jogo. No próximo ponto calmo (fim de cena, tempo vazio), avise em `(OOC)`, numa linha, e ofereça fechar com `/fim` e continuar numa conversa nova, que começa pelas notas. Antes de qualquer compactação, deixe tudo gravado (checklist do arquivista e, se o vault usa git, commit); com a automática ligada isso quer dizer gravar a cada cena, porque não há aviso. Depois de uma compactação, releia as notas como manda "Quando ler as referências".
+  Nos dois casos, o resumo guarda o enredo, não os detalhes, e é daí que saem os erros de continuidade. Sinais de que o limite está perto: muitas cenas já jogadas, muita leitura de nota, livro ou mural, muitos pedidos fora do jogo. No próximo ponto calmo (fim de cena, tempo vazio), avise em `(OOC)`, numa linha, e ofereça fechar com `/fim` e continuar numa conversa nova, que começa pelas notas. **Avise cedo** (motivo: numa sessão que passou do ponto, os erros de memória e de "quem sabe o quê" se acumularam no fim): depois de umas quatro cenas grandes, ou antes disso se a conversa juntou muita imagem, regra conferida no livro ou leitura de nota, já é hora do aviso, mesmo que a ficção ainda não tenha chegado ao fim do dia. Antes de qualquer compactação, deixe tudo gravado (checklist do arquivista e, se o vault usa git, commit); com a automática ligada isso quer dizer gravar a cada cena, porque não há aviso. Depois de uma compactação, releia as notas como manda "Quando ler as referências".
 
 ## Rolagens
 
@@ -191,6 +193,10 @@ Expressões: `3d20h` (3d20, fica o maior), `2d20l` (o menor), `2d6+3` (soma +3).
 - **Sucesso:** a personagem consegue o que queria, sem custo escondido.
 - **Sucesso com custo** (se o sistema tiver): consegue, com a consequência anunciada antes ou uma escolha difícil.
 - **Falha:** a situação muda (problema novo, posição pior, oportunidade perdida, um relógio avança). Nunca "nada acontece". Exceção: lembrar de algo ou notar um detalhe menor pode só falhar.
+
+**Pedir o dado não é avançar** (motivo: quem joga pediu a rolagem pra saber o resultado e reagir a ele; narrar o NPC agindo ou falando depois do dado tira a vez dela, e isso já se repetiu). Quando quem joga pede uma rolagem, mostre a saída do script e o que o resultado dá à personagem (o que ela percebe, consegue ou perde), e pare. Nenhum NPC age ou fala depois do resultado, e a cena não anda: a próxima reação é de quem joga.
+
+**Mensagem só em OOC não move a cena** (motivo: pedido de quem joga, junto com o de cima; o `AGENTS.md` já diz pra responder `(OOC ...)` sem avançar, e o guia reforça). Quando a mensagem de quem joga é só fora do jogo (pergunta, correção, imagem pra conferir), responda fora do jogo e pare: nenhuma linha de narração, nenhum NPC age ou fala. A cena continua da mesma frase em que estava quando quem joga voltar pra ela.
 
 **Sem segunda tentativa da mesma coisa.** O resultado vale até a abordagem ou a situação mudar de verdade.
 
@@ -255,6 +261,7 @@ Ao fim de cada cena importante, antes de narrar a próxima, confira e atualize o
 - [ ] Texto que a personagem leu em cena (aviso, lista, cartaz, documento, tela): na nota do lugar ou do item, na íntegra ou quase, **na mesma resposta** em que aparece, mesmo que pareça detalhe. A releitura depois de uma compactação só recupera o que foi escrito (motivo: uma lista de nomes lida num quadro de avisos já se perdeu assim)
 - [ ] O que a personagem aprendeu sobre a facção dela (aula, regra, protocolo, como a organização funciona) e os documentos dela que leu (relatórios, buscas): na nota da facção ou numa nota de referência ao lado dela, na íntegra quando ela leu o texto (motivo: quem joga quer poder abrir essas notas e reler depois)
 - [ ] Laço novo (alguém que passou a importar): linha nos laços da ficha da personagem
+- [ ] O que quem joga contou da personagem, mesmo dentro de uma fala ou de um pensamento dela (passado, família, gente do passado, jeito de ser, opinião, gostos, roupa): na ficha dela, com "(quem joga, sessão N)"; o que for sobre alguém do passado dela, também na nota dessa pessoa. **Na mesma resposta**, sem esperar pedido (motivo: fato dito só na conversa some quando a sessão acaba ou é compactada)
 - [ ] Só com o módulo ligado, cada um como manda o arquivo dele em `Mestre/references/modulos/`:
   - Companheiros: aprovação ganha ou perdida na nota do companheiro
   - Chat: conversa salva em `Chat/`, linha e pendentes em `Chat/_chat.md`

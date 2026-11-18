@@ -75,4 +75,5 @@ Avoid: [AVOID], thick or dark scar, scar too short, scar on the wrong side, scar
 - Luz quente (fim de tarde) puxa névoa: reforce "clear contrast, defined shadows".
 - Edição com várias mudanças às vezes ignora uma; se errar, peça uma por vez, começando pela mais difícil.
 - Um chat por personagem na outra IA evita que os traços de um vazem pro outro.
+- **Sangue, carne exposta e corpo humano em criatura** (feridas, carne viva, boca ou rosto humano num monstro, cara de foto de crime) costumam ser bloqueados por violência, ou saem estranhos nos ajustes. Desde o primeiro prompt: diga que é um monstro fictício, troque "carne viva" e "sangue" por pele de cor e textura ("glossy dark crimson leathery skin"), tire armas, cápsulas e marcadores de evidência, e ponha "blood, gore, wounds" no Avoid. O detalhe mais pesado (uma boca humana, um ferimento) pode ficar só na narração: avise quem joga antes de insistir em várias tentativas (já houve caso de cinco tentativas sem sucesso, e a imagem ficou sem o detalhe).
 - Prompt que deu certo com quem joga: guarde na nota de prompt como "aprovado", pra servir de molde nas próximas.
