@@ -5,7 +5,7 @@ campanha:
 ---
 # Missão N (preparo do mestre)
 
-<!-- Fica na pasta de segredos da campanha: Campanhas/<saga>/Segredos/<campanha>/Missões/Missão N.md (número no nome, nunca o título: nome de arquivo aparece na barra lateral). Em campanha pequena, sem o Segredos.md dividido, vira uma seção dele. A ficha pública da missão (template Missão) nasce quando a personagem recebe o caso. Nomes sem wikilink. -->
+<!-- Fica nos segredos da saga, na pasta da campanha: Campanhas/<saga>/Segredos/<campanha>/Missões/Missão N.md (número no nome, nunca o título: nome de arquivo aparece na barra lateral). Em campanha pequena, sem o Segredos.md dividido, vira uma seção dele. A ficha pública da missão (template Missão) nasce quando a personagem recebe o caso. Nomes sem wikilink. -->
 
 > Só o mestre. Ler quando a missão estiver pra começar ou em andamento.
 

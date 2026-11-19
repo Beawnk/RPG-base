@@ -11,7 +11,7 @@ Uma base pra jogar RPG solo com uma IA como mestre. É uma pasta de notas em Mar
 - **Vem:** as regras do mestre (`AGENTS.md`), o guia de como mestrar (`Mestre/`), templates de nota, o esqueleto pra resumir um sistema (`Sistemas/_modelo.md`), scripts de dados, plantas, documentos e prints de chat, e a pesquisa em que o jeito de mestrar se baseia (`Referências/`).
 - **Não vem:** campanhas, sistemas resumidos, livros de regras nem dados de jogador. Você cria os seus depois de clonar.
 
-O mestre não protege a personagem, rola os dados com um script (nunca escolhe o número) e prepara situações, não roteiro.
+O mestre não protege a personagem, rola os dados com um script, ou deixa você rolar os da sua personagem (nunca escolhe o número), e prepara situações, não roteiro.
 
 ## O que precisa
 
@@ -25,7 +25,7 @@ O mestre não protege a personagem, rola os dados com um script (nunca escolhe o
    ```bash
    git clone https://github.com/Beawnk/RPG-base.git
    ```
-2. Preencha `Jogador.md` (nome, pronomes, por onde joga, gostos e limites) ou deixe em branco que o mestre pergunta.
+2. Preencha `Jogador.md` (nome, pronomes, por onde joga, quem rola os dados, lista de opções, gostos e limites) ou deixe em branco que o mestre pergunta.
 3. Ponha o livro do sistema em `Livros de regras/` (fica fora do git) e peça: *"resume o sistema X pra gente jogar"*. Revise o resumo que ele gerar em `Sistemas/`.
 4. Faça a sessão zero: *"vamos criar uma campanha"*.
 5. Daí em diante, é só abrir o assistente na pasta e dizer *"vamos jogar"*.

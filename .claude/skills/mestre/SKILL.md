@@ -9,6 +9,5 @@ Esta skill é só um atalho. O conteúdo fica em arquivos comuns do vault, pra s
 
 1. Se ainda não leu nesta conversa, leia `AGENTS.md` (raiz): as regras fixas do mestre e o início de sessão.
 2. Leia `Mestre/Guia do mestre.md` inteiro: o ofício (cena, rolagens, registro). Ele diz quando abrir cada arquivo de `Mestre/references/` e quais módulos são opcionais.
-3. Todas as rolagens saem de `Mestre/scripts/rolar.py`. Nunca escolha nem estime um número.
 
 Não copie regras pra cá: se algo mudar, mude no guia.

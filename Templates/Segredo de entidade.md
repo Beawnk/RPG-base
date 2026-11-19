@@ -10,17 +10,31 @@ nota: <NPCs | Lugares | Itens | Facções>/<Nome>.md
 
 > Só o mestre. O lado oculto de `<pasta>/<Nome>.md`. Nada daqui aparece em nada que quem joga leia.
 
+## Agora (lado do mestre)
+> O que só o mestre sabe e vale hoje. Atualizado: <sessão N, quando na ficção>. Como manter: `Mestre/references/notas.md`.
+<!-- NPC ou facção -->
+- Fazendo agora, fora de cena:
+- Próximo passo se ninguém interferir:
+- Esconde agora, e o que pode fazer vazar:
+- Sabe da personagem sem ela saber que ele sabe (e como soube):
+<!-- Companheiro (módulo): os campos acima, mais estes -->
+- Aprova agora: (pode mudar com a história; a mudança vai pro Histórico da nota pública só como o que a personagem fez e viu, sem o porquê daqui)
+- Reprova agora:
+- Próximo valor mínimo: (o que ele só faz ou conta a partir de tal aprovação)
+<!-- Lugar -->
+- Acontecendo aqui agora:
+<!-- Item -->
+- Com quem está de verdade, e em que estado:
+
+## O resto
 <!-- NPC ou facção -->
 - Quer de verdade:
 - Esconde:
-- Fazendo agora, fora de cena:
-- Próximo passo se ninguém interferir:
+- Linha do tempo do passado: (data ou "tantos dias antes de X" de cada fato que pode aparecer numa fala; ver `Mestre/references/preparo.md`)
 
 <!-- Companheiro (módulo): os campos de NPC acima, mais estes -->
-- Plano dele: (o arquivo em `Companheiros/`, na pasta de segredos da campanha)
+- Plano dele: (o arquivo em `Campanhas/<saga>/Segredos/<campanha>/Companheiros/`)
 - Motivos profundos: (o que move ele por baixo; guia como os valores podem mudar)
-- Aprova agora: (pode mudar com a história; registre a mudança no Histórico da nota pública)
-- Reprova agora:
 - Valores mínimos: (ex.: 40 pra conversa íntima; o que a missão pessoal exige)
 - Missão pessoal, a verdade: (e o que acontece se a personagem ignorar)
 - Como reage se a personagem fizer algo que ele reprova:

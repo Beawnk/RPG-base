@@ -30,8 +30,8 @@ status: em andamento
 ## Como jogamos
 - Saga: [[Campanhas/<Nome da saga>/_saga|<Nome da saga>]] (campanha nº , continua de: )
 - Sistema: [[Sistemas/<sistema>]]
-- Quem rola os dados: o mestre rola tudo pelo script (os de quem joga também), mostrando cada dado
-- DT: aberta | secreta (registrada antes do dado)
+- Quem rola os dados: como em `Jogador.md` (escreva aqui só se esta campanha for exceção, e por quê)
+- Dificuldade: aberta | secreta (registrada antes do dado; use o nome que o sistema dá, ex.: DT, CD)
 - Dicas de regras (💡): sim | não
 - Ficha visual: não (só se houver um script de ficha pro sistema desta campanha; nesse caso, ponha aqui o caminho do script, o arquivo de dados e o comando)
 - Papel da IA: mestre

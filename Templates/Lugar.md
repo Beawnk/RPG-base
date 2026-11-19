@@ -9,6 +9,13 @@ regiao:
 
 > Uma ou duas linhas: o que é e o clima do lugar.
 
+## Agora
+> O que vale hoje, tirado do resto da nota (que continua inteiro embaixo). Atualizado: <sessão N, quando na ficção>. Como montar e manter: `Mestre/references/notas.md`.
+- **Como está agora:** (quem está, o que mudou, perigo à vista)
+- **O que a personagem deixou aqui:**
+- **Em aberto aqui:** (combinados, horários, promessas ligadas ao lugar)
+- **O que ela sabe dele que importa:**
+
 ## Sentidos
 > Paleta pra narrar. Usar aos poucos, sem recitar (guia do mestre, "Como descrever").
 - Sempre ali (o que não muda: a luz, um cheiro, uma textura, o detalhe que só este lugar tem):

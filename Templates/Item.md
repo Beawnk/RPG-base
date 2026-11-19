@@ -11,6 +11,12 @@ onde:
 
 > Uma ou duas linhas: o que é e por que importa.
 
+## Agora
+> O que vale hoje, tirado do resto da nota (que continua inteiro embaixo). Atualizado: <sessão N, quando na ficção>. Como montar e manter: `Mestre/references/notas.md`.
+- **Onde está e com quem:**
+- **Em que estado:**
+- **O que a personagem sabe dele:**
+
 ## Mecânica
 - 
 

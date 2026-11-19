@@ -16,6 +16,12 @@
 - Compactação da conversa:
   > "automática" (a sua IA resume a conversa sozinha quando ela enche; é o mais comum) ou "manual" (ela não resume sozinha: você manda compactar ou abre uma conversa nova quando quiser). Muda como o mestre avisa que a sessão está longa. Em branco, vale "automática".
 
+## Dados e narração
+- Quem rola os dados:
+  > "o mestre rola tudo" (ele rola pelo script os seus dados e os dos NPCs e inimigos, e mostra cada dado; é o mais prático pelo celular) ou "eu rolo os meus" (o mestre diz o teste e o que rolar, você rola com dados de verdade ou com o script e diz o resultado; os dos NPCs e inimigos continuam com ele). Em branco, vale "o mestre rola tudo". Se uma campanha precisar ser diferente, a exceção vai no `_campanha.md` dela.
+- Lista de opções:
+  > "sim" (no fim de cada vez, o mestre sugere em poucas linhas o que a personagem poderia fazer, e você pode seguir outra coisa) ou "não" (ele narra, para e espera você dizer o que faz). Em branco, vale "não"; dá pra pedir uma lista na hora mesmo assim.
+
 ## Preferências de jogo
 - Ritmo:
   > Cenas curtas ou longas, mais ação ou mais conversa, quanto de calmaria e exploração, quanto tempo dura uma sessão sua.

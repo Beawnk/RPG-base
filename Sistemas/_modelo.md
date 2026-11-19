@@ -15,7 +15,7 @@ Premissa em duas ou três linhas: quem são as personagens, o que fazem, o tom d
 ## Notação dos dados
 <!-- (guia) -->
 - Como o livro escreve as rolagens e como isso vira expressão do script `rolar.py` (ex.: "vantagem" = `2d20h`; "soma de dois dados mais o bônus" = `2d6+3`).
-- Abreviações que o resumo usa (DT, vida, recursos) e o que cada uma quer dizer.
+- Abreviações que o resumo usa (o nome que o sistema dá à dificuldade, vida, recursos) e o que cada uma quer dizer.
 
 ## Teste e escala de dificuldade
 <!-- (guia) -->

@@ -6,7 +6,7 @@ status: em andamento
 ---
 # {{title}}
 
-> Ficha de investigação. Só o que a personagem sabe. O preparo do mestre fica na pasta de segredos da campanha (template Segredo de missão).
+> Ficha de investigação. Só o que a personagem sabe. O preparo do mestre fica nos segredos da saga, em `Campanhas/<saga>/Segredos/<campanha>/Missões/` (template Segredo de missão).
 
 ## Resumo do caso
 - 

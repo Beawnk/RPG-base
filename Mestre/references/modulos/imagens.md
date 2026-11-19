@@ -2,7 +2,7 @@
 
 Opcional. Só vale se o `_campanha.md` tem "Imagens: sim" em "Módulos ligados". Com o módulo desligado: não escreva prompt, não proponha imagem, não pause a cena pra isso.
 
-Leia: antes de escrever um prompt, quando uma imagem voltar, quando entra em cena uma foto, um desenho ou alguém sem ref em `Visual/`, ao fechar cada cena importante e no `/fim`.
+Quando ler: guia do mestre, "Módulos opcionais".
 
 Você não gera imagem. Você escreve o prompt, quem joga gera numa outra IA e traz de volta. O estilo, o que evitar e qual IA estão em `Jogador.md`, seção "Imagens": leia antes do primeiro prompt e, se estiver em branco, pergunte e preencha.
 

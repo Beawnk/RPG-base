@@ -1,6 +1,6 @@
 # Vault de RPG solo com uma IA como mestre
 
-Uma pasta de notas em que uma IA mestra campanhas de RPG pra uma pessoa só, com o sistema que você escolher. As notas são a memória do jogo: mundo, personagens, NPCs, o que aconteceu em cada sessão e o que o mestre está escondendo de você. O mestre rola os dados com um script, não protege a personagem e prepara situações em vez de roteiro.
+Uma pasta de notas em que uma IA mestra campanhas de RPG pra uma pessoa só, com o sistema que você escolher. As notas são a memória do jogo: mundo, personagens, NPCs, o que aconteceu em cada sessão e o que o mestre está escondendo de você. O mestre rola os dados com um script (ou você rola os da sua personagem, se preferir), não protege a personagem e prepara situações em vez de roteiro.
 
 ## O que precisa
 - **Um assistente de IA que trabalhe dentro desta pasta**: que leia e grave arquivos aqui e rode comandos. Nada na base é exclusivo de um assistente: serve qualquer um que leia o `AGENTS.md`. Os passos específicos dos dois mais usados, Claude Code e Codex, estão mais abaixo.
@@ -34,11 +34,11 @@ As regras do mestre estão em **`AGENTS.md`**, na raiz. Abra o assistente **nest
 Um chat sem acesso à pasta (site ou aplicativo de conversa) funciona pior, mas funciona:
 - Anexe ou cole `AGENTS.md`, `Mestre/Guia do mestre.md`, `Jogador.md`, o resumo do sistema e as notas da campanha no começo de cada conversa (ou num "projeto", se o chat tiver).
 - Ela não grava nada: ao fim de cada cena, peça o texto das notas que mudaram e salve você.
-- Se ela não roda Python, **você rola os dados** (de verdade, ou com `python Mestre/scripts/rolar.py 2d6+1` no seu computador) e diz o resultado. Não deixe a IA "rolar de cabeça": ela escolhe o número.
+- Se ela não roda Python, **você rola os dados** (de verdade, ou com `python Mestre/scripts/rolar.py 2d6+1` no seu computador) e diz o resultado, os seus e os dos NPCs. Não deixe a IA "rolar de cabeça": ela escolhe o número.
 - Cuidado ao colar os arquivos de segredos: tente não ler.
 
 ## Primeiro uso
-1. **Preencha `Jogador.md`**: nome, pronomes, por onde joga, o que gosta e seus limites. Se deixar em branco, o mestre pergunta na primeira conversa.
+1. **Preencha `Jogador.md`**: nome, pronomes, por onde joga, quem rola os dados, se quer lista de opções, o que gosta e seus limites. Se deixar em branco, o mestre pergunta na primeira conversa.
 2. **Ponha o livro do sistema em `Livros de regras/`.** Essa pasta fica fora do git. Sem livro, dá pra ditar as regras ou apontar uma referência aberta.
 3. **Peça o resumo do sistema**: "resume o sistema X pra gente jogar". O mestre lê o livro e preenche uma cópia de `Sistemas/_modelo.md`. Leia, corrija o que estiver errado, e está pronto.
 4. **Faça a sessão zero**: "vamos criar uma campanha". Vocês combinam premissa, tom, limites, quais módulos ligar, e você cria a personagem. O mestre monta o resto escondido.

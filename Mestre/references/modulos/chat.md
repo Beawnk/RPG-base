@@ -2,7 +2,7 @@
 
 Opcional. Só vale se o `_campanha.md` tem "Chat: sim" em "Módulos ligados". Com o módulo desligado: nenhuma conversa de celular em cena, nada em `Chat/`, nenhum print, e pule este arquivo no `/fim`. Só faz sentido em mundo que tem celular ou coisa parecida (rádio, cartas e recados também servem, se a campanha combinar).
 
-Leia: antes de abrir uma conversa, ao registrar uma e no `/fim`.
+Quando ler: guia do mestre, "Módulos opcionais".
 
 A personagem tem um celular, e as pessoas falam com ela por ele: um grupo com quem anda junto, e às vezes alguém chama no privado, como no Mystic Messenger. É o equivalente às conversas de acampamento do Baldur's Gate 3: o lugar onde as relações andam fora da ação.
 
@@ -37,4 +37,4 @@ Leia `Chat/_chat.md`: pendentes e o que cada um disse por último. A conversa in
 
 ## `/fim`
 
-Confira se toda conversa da sessão foi salva e indexada. Um NPC que agiu fora de cena pode deixar uma mensagem esperando a personagem na próxima sessão: escreva-a em `Chat/` e marque como pendente em `_chat.md`. Na checagem de consistência: alguma conversa de celular ficou sem registro em `Chat/`?
+Confira se toda conversa da sessão foi salva e indexada. Um NPC que agiu fora de cena pode deixar uma mensagem esperando a personagem na próxima sessão: escreva-a em `Chat/` e marque como pendente em `_chat.md`.

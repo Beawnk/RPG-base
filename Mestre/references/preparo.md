@@ -1,6 +1,6 @@
 # Preparo: sistema, campanha, sessão e fechamento
 
-Leia ao resumir um sistema novo, ao criar uma campanha, ao preparar o início de uma sessão, ao rodar o `/fim` ou ao fechar um arco.
+Leia ao resumir um sistema novo, ao criar uma campanha, ao preparar o início de uma sessão ou ao fechar um arco. O `/fim` tem arquivo próprio: `Mestre/references/fim.md`.
 
 Os passos com a marca **(módulo)** só existem se o módulo está ligado em "Módulos ligados" do `_campanha.md`. Desligado, pule o passo inteiro.
 
@@ -9,7 +9,7 @@ Os passos com a marca **(módulo)** só existem se o módulo está ligado em "M�
 Isto é modo criação. O jogo usa `Sistemas/<sistema>.md`, um resumo, e não o livro inteiro.
 
 1. Quem joga põe o livro em `Livros de regras/` (fora do git). Sem livro, dita as regras ou aponta uma referência aberta.
-2. Copie `Sistemas/_modelo.md` como `Sistemas/<sistema>.md` e preencha todas as seções a partir do livro, com as suas palavras (sem copiar trechos), citando as páginas. Seção que o sistema não tem fica como "não se aplica". Os títulos que o guia consulta pelo nome não mudam: "Notação dos dados", "Teste e escala de dificuldade", "Antes do dado: o que quem joga decide", "Teste de conhecimento", "Ficha", "Combate", "Descanso e recuperação", "Jogando solo", "Pra mestrar" e "Ajustes em teste".
+2. Copie `Sistemas/_modelo.md` como `Sistemas/<sistema>.md` e preencha todas as seções a partir do livro, com as suas palavras (sem copiar trechos), citando as páginas. Seção que o sistema não tem fica como "não se aplica". Os títulos que o guia e as referências dele consultam pelo nome não mudam: "Notação dos dados", "Teste e escala de dificuldade", "Antes do dado: o que quem joga decide", "Teste de conhecimento", "Ficha", "Combate", "Descanso e recuperação", "Jogando solo", "Pra mestrar" e "Ajustes em teste".
 3. Regra ambígua ou interpretação sua: pergunte antes de fixar. Em "Jogando solo", proponha o que muda com uma personagem só e deixe quem joga decidir.
 4. Mostre o resumo, ajuste, e só então use em jogo. O que não funcionar na mesa vira entrada em "Ajustes em teste" (pergunta do `/fim`).
 5. Se quem joga quiser ficha visual pro sistema, isso é um script à parte, feito em modo criação. Sem script, a ficha é a nota da personagem.
@@ -28,7 +28,7 @@ Isto é modo criação: você é colaborador, não mestre. Proponha, compare, de
    - Falha pode virar captura, dívida, perda permanente?
    - Linhas (o que nunca aparece) e véus (o que acontece fora de cena). Comece pelos limites de `Jogador.md` e pergunte se esta campanha tem outros.
    - Ganchos explícitos ou sutis.
-   - Quem rola os dados e se a DT é aberta ou secreta.
+   - Se a dificuldade é aberta ou secreta. Quem rola os dados vem de `Jogador.md` ("Quem rola os dados"): pergunte só se esta campanha deve ser diferente, e nesse caso grave a exceção e o porquê em "Quem rola os dados" do `_campanha.md`.
    - **Módulos:** quais ligar nesta campanha (companheiros, chat, imagens, mural). Explique cada um em uma linha, com o que custa, e registre a escolha em "Módulos ligados". O padrão é desligado.
 3. **Personagem.** Quem joga cria. Você pergunta, não inventa passado, família ou laços. Peça:
    - o que a personagem quer (1 ou 2 objetivos pessoais)
@@ -37,7 +37,7 @@ Isto é modo criação: você é colaborador, não mestre. Proponha, compare, de
 
    Depois, costure: o passado, o kicker e as pessoas dela viram NPCs, lugares e ganchos nas ameaças. Detalhe importante que não foi dado, pergunte.
 4. **Perguntas da campanha.** 1 a 3 perguntas que a história vai responder e que você genuinamente não sabe a resposta ("A Ilsa vai perdoar o irmão?", "A cidade cai antes do inverno?"). Ficam em `_campanha.md`, à vista de quem joga. Os finais possíveis são as respostas.
-5. **Ameaças.** Monte em `Segredos.md` (formato abaixo). Ele nasce, com o `Cena.md`, na pasta de segredos da campanha: `Campanhas/<saga>/Segredos/<campanha>/`. Mostre a quem joga só quem é e o que quer, no nível de premissa. Presságios e desfechos ficam secretos, a menos que quem joga peça pra ver.
+5. **Ameaças.** Monte em `Segredos.md` (formato abaixo). Ele nasce, com o `Cena.md`, na pasta da campanha dentro dos segredos da saga: `Campanhas/<saga>/Segredos/<campanha>/`. Mostre a quem joga só quem é e o que quer, no nível de premissa. Presságios e desfechos ficam secretos, a menos que quem joga peça pra ver.
 6. **Vilão e reviravoltas.** Planeje desde o começo, em `Segredos.md`:
    - **O vilão da campanha** é o motor da ameaça de campanha. Os presságios dela são a construção dele: primeiro só rastros e consequências, depois capangas e boatos, depois contato direto, por fim o confronto. Quem joga deve sentir a presença dele crescer antes de encontrá-lo.
    - **1 ou 2 reviravoltas**: verdades escondidas que mudam o sentido do que a personagem já viveu (o aliado que trabalha pro vilão, o vilão que tem razão em parte, a missão que era outra coisa). Cada uma recebe pistas plantadas bem antes (regra das três pistas), pra que a revelação surpreenda e, olhando pra trás, faça sentido.
@@ -93,7 +93,11 @@ Em `Segredos.md`, seção "Pistas planejadas":
 - A conclusão só conta quando quem joga declara ou age com base nela, não quando você acha que já foi entendida.
 - Se as pistas estão sendo perdidas, acrescente outras. Nunca entregue a resposta.
 - Abordagem esperta que você não previu também encontra pista.
-- Evite pista falsa de propósito: quem joga já cria suspeitos por conta própria.
+- Evite pista falsa de propósito: quem joga já cria suspeitos por conta própria. Pista falsa é a que o mestre põe só pra despistar, sem nada no mundo por trás: puxado o fio, ele morre ou exige explicação inventada na hora. Duas coisas não são pista falsa e podem entrar:
+  - **suspeito ambíguo:** fatos verdadeiros que fazem alguém parecer culpado (brigou com a vítima, estava perto, não tem álibi), cada um com uma causa no mundo que a investigação revela e que acaba por eliminá-lo;
+  - **armação de alguém do mundo:** o culpado (ou outro NPC) planta uma pista pra incriminar alguém. Vale se tiver autor, motivo e rastro: quem fez, por quê, e as pistas que levam até essa pessoa (de onde veio o objeto, quem tinha acesso, o detalhe que não bate). Grave nos segredos junto com a pista. Engana sobre quem foi incriminado e diz a verdade sobre quem armou.
+
+**Linha do tempo do passado.** Todo companheiro e todo NPC ligado a um mistério ganha, no arquivo de segredo dele, uma linha do tempo com data (ou "uns tantos dias antes de X") de cada fato do passado que pode aparecer numa fala: quando conheceu quem, quando aconteceu o que o marcou, em que ordem. A trama continua aberta, com vários finais possíveis; o passado é que fica fixo, porque não muda. Feita no preparo, antes de o NPC entrar em jogo; o que for decidido em cena entra nela na mesma resposta.
 
 **Segredos soltos.** Mantenha alguns segredos e pistas sem lugar fixo (cerca de 5 a 10 por arco). Durante o jogo, entregue cada um onde a personagem estiver, por uma fonte plausível pro lugar. Isso é informação flutuando, não escolha: passa no teste do railroad.
 
@@ -104,54 +108,13 @@ Quando um segredo for descoberto, siga o `AGENTS.md` (passa pra nota pública, m
 Depois do protocolo de início do `AGENTS.md`, antes do recap (é preparo mental; só vira nota se algo novo for decidido):
 
 0. Se a última nota de `Sessões/` tem "Avaliação de quem joga", releia as notas, os porquês e "O que o mestre leva pra próxima". É o que corrigir nesta sessão. Releia também `Jogador.md`: ritmo, limites e por onde a pessoa joga hoje.
-1. Releia as ameaças e relógios em `Segredos.md`. Qual presságio está mais perto? Releia `Cena.md` (o lado oculto da cena em que a sessão parou). Se o `Segredos.md` foi dividido, leia também `Agora.md` (o mundo depois da última sessão e o que está preparado) e abra o plano de cada companheiro e de cada missão que deve aparecer hoje. Abra também o arquivo de segredo (`Entidades/`) de quem deve aparecer. O resto da pasta fica fechado.
-   - **(módulo) Chat:** leia `Chat/_chat.md`: pendentes e o que cada um disse por último. A conversa inteira só se precisar.
-2. Escolha 3 a 5 pistas ou segredos que podem aparecer nesta sessão, sem prender a lugar. Inclua, quando couber, uma pista de reviravolta ou um sinal do vilão.
+1. Releia as ameaças e relógios em `Segredos.md`. Qual presságio está mais perto? Releia `Cena.md` (o lado oculto da cena em que a sessão parou). Se o `Segredos.md` foi dividido, leia também `Agora.md` (o mundo depois da última sessão e o que está preparado) e abra o plano de cada companheiro e de cada missão que deve aparecer hoje. Abra também o arquivo de segredo (`Entidades/`) de quem deve aparecer. O resto da pasta fica fechado. NPC, lugar, item ou facção que deve aparecer e ainda não tem o bloco Agora: monte agora (`Mestre/references/notas.md`).
+   - **(módulo) Chat:** como manda `Mestre/references/modulos/chat.md`, "No início da sessão".
+2. Escolha 3 a 5 pistas ou segredos que podem aparecer nesta sessão, sem prender a lugar. Inclua, quando couber, uma pista de reviravolta ou um sinal do vilão. Se `Jogador.md` pede puzzles e a sessão comporta, veja se uma dessas pistas pode vir como puzzle, montado como manda `Mestre/references/generos/investigação.md` (resposta gravada nos segredos antes).
 3. Escolha a **abertura**: retome exatamente de onde parou. Se parou na ação, abra na ação; se parou num respiro, pode abrir com calma. Sempre com uma situação concreta, nunca um "o que você quer fazer hoje?" no vazio.
 4. Pense em 2 ou 3 cenas possíveis. São possibilidades, não roteiro: se nenhuma acontecer, tudo bem.
-5. **(módulo) Mural:** leia o mural como manda `Mestre/references/modulos/mural.md`, "No início da sessão". É uma das três únicas vezes em que o Miro se abre.
+5. **(módulo) Mural:** leia o mural como manda `Mestre/references/modulos/mural.md`, "No início da sessão".
 6. **Paleta sensorial.** Pra cada lugar que provavelmente aparece na sessão, preencha a seção "Sentidos" da nota dele em partes: **sempre ali** (2 ou 3 sinais que não mudam: a luz, um cheiro, uma textura ou temperatura, o detalhe que só o lugar tem), **acontece às vezes** (1 ou 2 sons ou eventos que vêm e vão; cada um sai no máximo uma vez por sessão), **dá pra mexer** (uma ou duas coisas que convidam a personagem a agir) e, em lugar de terror, **o detalhe errado** (o familiar entortado). Lugar sem nota ainda: anote a paleta no preparo dos segredos (`Agora.md`, se o `Segredos.md` foi dividido; senão, o próprio `Segredos.md`) e passe pra nota quando o lugar entrar em jogo. NPCs e ameaças recorrentes ganham uma **assinatura sensorial** (o cachimbo do Dario; pra uma ameaça, um cheiro, um som ou uma sensação que só ela traz), que volta quando eles aparecem, pra quem joga reconhecer: no máximo uma vez por cena, não a cada fala. Isso é material, não roteiro: use na hora com a regra de descrição do guia, sem recitar a lista.
-
-## `/fim`: antes da nota da sessão
-
-Antes dos passos do `AGENTS.md`:
-
-0. **Checagem de consistência** (todo `/fim`, sem exceção): rode a lista da seção "Checagem de consistência" abaixo antes de escrever a nota da sessão. O checklist de cena pega o que mudou na cena; só esta passada pega o que ficou velho ou ficou de fora.
-1. **Mova o mundo.** Pra cada ameaça em que quem joga não tocou nesta sessão, decida se ela avançou fora de cena (presságio ou relógio). NPCs com objetivo também agem. Registre em `Segredos.md` (ou no arquivo de segredo do NPC, em "fazendo agora" e "próximo passo"). Com o `Segredos.md` dividido: reescreva `Agora.md` pra próxima sessão (o mundo depois desta, o que fica preparado) e passe pro `Arquivo.md` o que já foi jogado, com os testes da sessão que estavam em `Cena.md`. A personagem vai ficar sabendo por notícia, boato ou estrago, na próxima sessão.
-2. **Pistas e segredos.** Marque o que foi dado. Descarte os que perderam sentido. Reponha.
-3. **Ganchos** na nota da sessão: só o que a personagem sabe.
-4. **Ficha.** A nota da personagem manda. Confira nela, campo por campo, a lista "O que conferir no `/fim`" de `Sistemas/<sistema>.md`, "Ficha", e os contadores que o sistema acumulou na sessão.
-   - **Ficha visual, só se a campanha tem script de ficha** (linha "Ficha visual" do `_campanha.md`): o arquivo de dados é o espelho da nota, e a imagem sai dele. Atualize primeiro a nota, depois o arquivo de dados (valores atuais, a data e o momento, ex. "após sessão 3"), regenere com o comando da linha "Ficha visual", abra a imagem e confira antes de gravar. Sem script, este item não existe.
-5. **Dificuldades.** Confira a distribuição das DTs da sessão contra a escala do sistema: se quase todas caíram no mesmo degrau alto, anote o que corrigir.
-6. **Módulos ligados**, cada um pelo `/fim` do arquivo dele:
-   - **(módulo) Companheiros:** aprovação, quem ficou na base, fichas (`Mestre/references/modulos/companheiros.md`).
-   - **(módulo) Chat:** toda conversa salva e indexada; mensagem pendente de quem agiu fora de cena (`Mestre/references/modulos/chat.md`).
-   - **(módulo) Mural:** colocar a fila inteira e arrumar o To-do (`Mestre/references/modulos/mural.md`).
-7. **Sistema.** Faça a pergunta do `AGENTS.md` (o que funcionou e o que não funcionou nas regras) e grave a resposta em "Ajustes em teste" de `Sistemas/<sistema>.md`: o que mudou na regra, por quê, em que sessão foi testado, resultado. Se a resposta pede mudança de regra, proponha em modo colaborador; só entra com o sim de quem joga.
-8. **Mapa do vault:** atualize "Estado atual" no `_contexto.md` (onde a campanha parou, o que mudou nas regras e no guia), sem pedir. Atualize também "Estado geral" no `_campanha.md` e a linha do tempo no `_saga.md`.
-
-## Checagem de consistência
-
-Em todo `/fim` (passo 0) e quando quem joga pedir, revise sem criar canon novo:
-
-- nome ou fato contraditório entre notas
-- NPC, lugar ou item citado em jogo sem nota (qualquer um com nome e chance de voltar, inclusive família da personagem)
-- o que foi narrado e não está em nota nenhuma: fala em que um NPC conta algo de si ou do mundo, texto lido em cena, ambiente novo (um banheiro, uma copa)
-- arquivo de segredo de entidade com "fazendo agora" ou "próximo passo" de uma sessão atrás
-- pista dada e não marcada na lista dela (reviravoltas, segredos soltos, pistas planejadas)
-- `Cena.md` (segredos): DTs antigas (vão pro arquivo, "Testes da sessão N") e "se ela fizer X" que já aconteceu
-- pasta de segredos da campanha: `Agora.md` (se existe) ainda fala de coisa já jogada? o índice do núcleo bate com os arquivos?
-- segredo fora do lugar: bloco `[!segredo]` ou fato oculto numa nota pública; entidade com nota e sem arquivo de segredo em `Entidades/` (ou o contrário); wikilink dentro da pasta de segredos
-- `Linhas abertas.md`: item na seção errada, perigo que já passou, coisa fechada fora de "Fechadas"
-- detalhe sobre a vida da personagem que entrou em cena sem o sim de quem joga: pergunte em `(OOC)` se vale
-- segredo que vazou pra narração ou pra nota pública
-- presságio que deveria ter avançado e foi esquecido
-- ficha que não bate com o que aconteceu
-- **(módulo) Companheiros:** a tabela do núcleo bate com os planos e com as notas de quem já apareceu?
-- **(módulo) Chat:** conversa de celular sem registro em `Chat/`
-- **(módulo) Mural:** fato que a personagem viu, leu ou ouviu e não está no mural nem na fila de `Mural.md`
-
-Reporte em `(OOC)`. Corrija só erro óbvio de registro. Contradição de história: pergunte qual versão vale.
 
 ## Fechar um arco ou a campanha
 

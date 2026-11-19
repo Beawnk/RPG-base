@@ -14,6 +14,16 @@ aprovacao: 0
 
 > Uma ou duas linhas: quem é e por que acompanha a personagem.
 
+## Agora
+> O que vale hoje, tirado do resto da nota (que continua inteiro embaixo). Atualizado: <sessão N, quando na ficção>. Como montar e manter: `Mestre/references/notas.md`.
+- **Onde e como está:**
+- **O que fez há pouco:**
+- **Com a personagem:** aprovação <número>, <faixa>.
+- **Em aberto entre os dois:**
+- **O que ele sabe da personagem:**
+- **O que a personagem sabe dele:** quer: · teme:
+- **Coisas:**
+
 ## Aparência
 - 
 
@@ -24,20 +34,16 @@ aprovacao: 0
 - Como gosta de ser chamado (só o que a personagem já sabe):
 - Fala de exemplo:
 
-## Quer
-- Objetivo (o que a personagem percebe):
-- Medo:
-
 ## O que sabe
-> Só o que ele viu, ouviu ou descobriu. Nada de conhecimento de mestre.
+> Só o que ele aprendeu, e só se estava lá. Nova linha embaixo, com a sessão. Vencido se marca no fim da linha: (cumprido, sN), (passou), (mudou: ver sN).
 - 
 
-## Relação com a personagem
-> Número no `aprovacao`. Mudança de faixa ou de valores vai no Histórico com o motivo.
+## Dito por ele
+> Só o que ele disse ou mostrou de si. Nova linha embaixo, com a sessão.
 - 
 
 ## Missão pessoal
-> Só o que a personagem sabe. Quando ficar ativa, ganha nota própria (template Missão).
+> O que a personagem sabe da missão dele, a partir de quando fica sabendo: o que ele quer resolver, o que já foi feito, o que ela prometeu. O plano do mestre fica nos segredos. Quando a missão vira ativa, ganha nota própria (template Missão) e esta seção aponta pra ela.
 - 
 
 ## Ficha
@@ -53,4 +59,5 @@ aprovacao: 0
 > Lado do mestre: `Segredos/Entidades/{{title}} (segredo).md` (pasta de segredos da saga).
 
 ## Histórico
+> Cada mudança de aprovação, faixa ou valores, com o motivo e a sessão. O número de hoje fica no `aprovacao` e no Agora.
 - AAAA-MM-DD — o que aconteceu (link pra nota da sessão). Aprovação: neutra → média, porque… (ou: passa a não ligar pra X, porque…)
