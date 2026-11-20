@@ -35,11 +35,13 @@ Em todo `/fim` (passo 0) e quando quem joga pedir, revise sem criar canon novo:
 - o que foi narrado e não está em nota nenhuma: fala em que um NPC conta algo de si ou do mundo, texto lido em cena, ambiente novo (um banheiro, uma copa)
 - arquivo de segredo de entidade com "fazendo agora" ou "próximo passo" de uma sessão atrás
 - **notas de entidade de quem apareceu na sessão** (`Mestre/references/notas.md`): o bloco Agora, o da nota e o do segredo, bate com o resto da nota? A linha "Atualizado" está em dia? Promessa cumprida, horário que passou ou fato que mudou estão marcados como vencidos? Linha de "O que sabe" de cena em que ele não estava? Fato da nota da sessão ou do chat que não chegou à nota dele? Entidade sem Agora que deve aparecer na próxima sessão: monte agora
+- o bloco Agora da ficha da personagem: bate com o resto da ficha e com a sessão? "Quem sabe o quê dela" ganhou quem soube de algo nesta sessão?
 - pista dada e não marcada na lista dela (reviravoltas, segredos soltos, pistas planejadas)
 - `Cena.md` (segredos): dificuldades antigas (vão pro arquivo, "Testes da sessão N") e "se ela fizer X" que já aconteceu
 - pasta da campanha nos segredos da saga (`Campanhas/<saga>/Segredos/<campanha>/`): `Agora.md` (se existe) ainda fala de coisa já jogada? o índice do núcleo bate com os arquivos?
 - segredo fora do lugar: bloco `[!segredo]` ou fato oculto numa nota pública; entidade com nota e sem arquivo de segredo em `Entidades/` (ou o contrário); wikilink dentro da pasta de segredos
 - `Linhas abertas.md`: item na seção errada, perigo que já passou, coisa fechada fora de "Fechadas"
+- nota de investigação da campanha (se existe): pista, relatório lido ou leitura de perícia desta sessão entrou no índice, com a sessão e o link?
 - detalhe sobre a vida da personagem que entrou em cena sem o sim de quem joga: pergunte em `(OOC)` se vale
 - segredo que vazou pra narração ou pra nota pública
 - presságio que deveria ter avançado e foi esquecido

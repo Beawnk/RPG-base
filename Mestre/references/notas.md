@@ -1,6 +1,6 @@
 # Notas de entidade
 
-Leia ao criar a nota de um NPC (e de um companheiro, com o módulo ligado), de um lugar, item ou facção, no arquivista quando uma nota de entidade muda, na conferência do `/fim` e antes de montar o bloco Agora numa nota que ainda não tem. As regras fixas (nota pública só com o que a personagem sabe, arquivo de segredo de toda entidade) estão no `AGENTS.md`; aqui está como escrever e manter a nota pra ela continuar útil quando crescer.
+Leia ao criar a nota de um NPC (e de um companheiro, com o módulo ligado), de um lugar, item ou facção, ou a ficha de uma personagem de quem joga, no arquivista quando uma nota de entidade muda, na conferência do `/fim` e antes de montar o bloco Agora numa nota que ainda não tem. As regras fixas (nota pública só com o que a personagem sabe, arquivo de segredo de toda entidade) estão no `AGENTS.md`; aqui está como escrever e manter a nota pra ela continuar útil quando crescer.
 
 Por quê: com o tempo, a nota de um NPC importante passa de dez mil caracteres. Relida inteira a cada cena, ela pesa; lida pela metade, esconde o fato que importava. E as seções que ninguém define direito acabam vazias, desatualizadas ou com coisa no lugar errado.
 
@@ -25,7 +25,7 @@ Um bloco no topo da nota, logo abaixo da linha do essencial, com o que vale **ho
 - **Uma linha por assunto.** Dois fatos sem relação não dividem linha, nem quando são da mesma sessão ou parecem ligados.
 - **O motivo vai junto**, quando foi dito ("estuda as lendas porque o avô contava").
 - **Como ele soube**, quando não é óbvio que ela contou: viu, ouviu de outra pessoa, estava lá.
-- **Quem disse o quê a quem, com os nomes.** Todo fato contado diz quem contou e pra quem, sem sujeito escondido nem parêntese que sirva pra duas leituras. Vale pra toda nota, não só pro Agora.
+- **Quem disse o quê a quem, com os nomes.** Todo fato contado diz quem contou e pra quem, sem sujeito escondido nem parêntese que sirva pra duas leituras. Nome em vez de pronome sempre que a linha tiver mais de uma pessoa ("a regra é da personagem", não "a regra é dela"). Vale pra toda nota, não só pro Agora.
 - **A sessão no fim da linha** (s4, s7), pra achar o detalhe embaixo.
 - **Presente só em "Onde e como está".** Uma ação de antes do lado de uma fala faz a fala parecer dita agora.
 
@@ -78,3 +78,11 @@ Lugar, item e facção também têm o Agora, com a mesma regra: nota nova nasce 
 - **Lugar:** como está agora (quem está, o que mudou, perigo à vista); o que a personagem deixou ali; em aberto ali; o que ela sabe dele que importa.
 - **Item:** onde está e com quem; em que estado; o que a personagem sabe dele.
 - **Facção:** a posição dela com a personagem; quem a personagem conhece lá dentro; em aberto; o que ela sabe dela.
+- **Personagem de quem joga** (a ficha): o Agora olha pra fora, pro que o mestre esquece (quem joga já sabe tudo isso). Nasce com a ficha (o template traz) e é atualizado no arquivista e no `/fim`, como os outros. Seções:
+  - **Onde e como está:** só o presente: lugar e hora, com quem, o que veste (se uma nota diz), os recursos do sistema e quando cada um volta.
+  - **O que fez há pouco:** as ações dela no dia da ficção, da sessão anterior em diante, com a hora. Só ações.
+  - **Coisas e onde estão:** por lugar: com ela, onde dorme, guardado com alguém, em casa, no celular ou em arquivos. Coisa sem lugar registrado não se inventa: pergunte.
+  - **Em aberto:** só o que tem hora ou pessoa: combinados, pedidos feitos e recebidos, mensagens sem resposta. Promessa sem prazo, mistério e missão ficam em `Linhas abertas.md`.
+  - **Laços agora:** uma linha por pessoa que importa, com o estado de hoje (como a chama, a última vez que se viram); o resto está no Agora da nota dela.
+  - **Quem sabe o quê dela:** pra cada fato sensível da vida dela (as marcas, as perdas, o que fez de ilegal, as mentiras que conta, a vida amorosa), quem sabe e como soube (contou, viu, ouviu de outra pessoa, estava lá), com a sessão; e "ninguém", quando uma nota diz. É a lista "O que ele sabe da personagem" das notas de NPC ao contrário: serve pra cena com várias pessoas e pra NPC novo. Se as duas divergirem, confira na nota da sessão. O que um NPC sabe dela sem ela saber não entra: é segredo.
+  - Teoria e conclusão dela não entram: são de quem joga (ficam no mural, se o módulo estiver ligado).
