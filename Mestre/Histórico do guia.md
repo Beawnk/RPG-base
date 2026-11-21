@@ -4,6 +4,9 @@ Não se lê durante o jogo. Guarda de onde veio cada regra do guia do mestre e d
 
 **Antes de pôr uma regra nova no guia**, procure uma que já diga a mesma coisa ou quase: se existe, reescreva ou funda com ela, e registre aqui. Regra nova só entra como linha nova se não houver nenhuma parecida. Por quê: cada erro virava uma regra a mais, o guia crescia, e um guia maior faz o mestre seguir cada regra com menos firmeza, justamente o que causa os erros (sessão de 2026-11-16, quando um NPC soube o que não viu apesar de o guia já dizer que NPC só sabe o que presenciou).
 
+## 2026-11-21: arquivo de tipo novo entra no mapa na hora
+- Um índice de investigação foi criado fora do jogo e ficou fora do `_contexto.md`: o mapa só era atualizado no passo 10 do `/fim`, e só no "Estado atual". Quem joga pediu que todo arquivo importante novo entre no mapa. Ficou no `AGENTS.md` (vale dentro e fora do jogo), com o corte "tipo novo" pra o mapa não inchar com cada nota de template, e uma conferência no passo 10 do `/fim`.
+
 ## 2026-11-18 (noite): cada regra num lugar só, `/fim` em arquivo próprio, patch notes
 - Uma auditoria pedida por quem joga achou regras ditas duas, três e até seis vezes (ler o Agora antes do NPC, as regras de dado, o `/fim`, os gatilhos dos módulos). Cada cópia envelhecia de um jeito e duas já se contradiziam (o `AGENTS.md` mandava ler a nota inteira, o guia mandava ler o Agora). Cada regra ficou num lugar, e os outros apontam pra ele: regra fixa no `AGENTS.md`, ofício no guia, o detalhe na referência. Exceção pedida por quem joga: `references/rolagens.md` guarda tudo de rolagem junto, inclusive o que repete o `AGENTS.md` e o guia.
 - O `/fim` estava metade no `AGENTS.md` e metade no `preparo.md`, intercalados ("antes do passo X do AGENTS"). Foi pra `references/fim.md`, numa lista só, que o `AGENTS.md` manda ler antes de começar (ideia de quem joga).
