@@ -25,7 +25,7 @@ As regras de como mestrar estão no `AGENTS.md`. Este arquivo é o mapa: onde ca
 ├── Sistemas/               um resumo por sistema de RPG, reaproveitável entre campanhas; `_modelo.md` é o esqueleto de todo resumo; `scripts/` guarda o que é de um sistema só (ex.: script de ficha visual)
 ├── Referências/            pesquisas e material de apoio (ex.: Ofício de mestre em RPG solo)
 ├── Livros de regras/       os livros dos sistemas. Fora do git (direito autoral e tamanho): só existe no computador de quem joga. O que o jogo precisa vai resumido pra Sistemas/. Ao lado de cada PDF, quando houver, o texto extraído (`.txt`, com a marca `[pdf p. N]` em cada página), pra procurar com grep sem abrir o PDF
-├── Patch notes/           um arquivo por dia (`AAAA-MM-DD.md`) com o que mudou fora do jogo e como era antes, pra desfazer (`AGENTS.md`, "Patch notes"). Nasce na primeira mudança
+├── Patch notes/           um arquivo por dia (`AAAA-MM-DD.md`) com as mudanças nas regras e na arquitetura do vault, e como era antes, pra desfazer (`AGENTS.md`, "Patch notes"). Nasce na primeira mudança
 ├── Templates/              um por tipo de nota (lista em "Estado atual")
 ├── Visual/                 imagens (pasta de anexos do Obsidian): `Visual/Mapas/` plantas de lugares (SVG); `Visual/Documentos/` documentos do jogo (SVG); `Visual/Fichas/` ficha visual, só em campanha que tem script de ficha; `Visual/Chat/` prints e `avatares/` (fotos de perfil do chat, mapeadas em `avatares.json`), módulo de chat; `Visual/Prompts/` prompts de imagem, módulo de imagens. Nomes: `<Nome> - ref N`, `<Nome> - perfil`, `<Nome> - sessão N`. Os arquivos "Exemplo - ..." mostram o que cada script faz
 └── Campanhas/
