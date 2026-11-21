@@ -44,6 +44,7 @@ As regras de como mestrar estão no `AGENTS.md`. Este arquivo é o mapa: onde ca
             ├── Cena atual.md    só a cena de agora: onde, quando, quem, ameaças
             ├── Linhas abertas.md missões, mistérios, promessas, ameaças em aberto
             ├── Mural.md         módulo de mural: link, quadros, regras e a fila do que ainda não foi pro Miro
+            ├── Investigação.md  opcional: índice do que a personagem já achou e sabe, por assunto, apontando pra nota onde cada fato está inteiro
             ├── Regras visuais.md  regras de mapa, planta e documentos da campanha, lidas quando o gatilho acontece
             ├── Missões/         uma ficha de investigação por missão (template Missão)
             └── Sessões/         uma nota por sessão
